@@ -1,0 +1,26 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+@import url(https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed|Roboto);
+
+* {
+    a {
+        text-decoration: none;
+    }
+}
+
+html {
+    font: $primary_font 1.2rem;
+    line-height: 160%;
+    background: #fcfcfc;
+}
+
+.portfolio {
+     .portfolio-item {
+         background: #fff;
+         .portfolio-text {
+              h3 {
+                   font: 2em $secondary_font;
+              }
+         }
+    }
+}
+
