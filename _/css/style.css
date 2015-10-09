@@ -1,1 +1,190 @@
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");@import url(https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed|Roboto);html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}html{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}q,blockquote{quotes:none}q:before,q:after,blockquote:before,blockquote:after{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}* a{text-decoration:none}html{font:"Roboto",sans-serif 1.2rem;line-height:160%;background:#fcfcfc}.portfolio .portfolio-item{background:#fff}.portfolio .portfolio-item .portfolio-text h3{font:2em "Roboto Condensed",serif}
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+@import url(https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed|Roboto);
+/* line 5, ../../../../../../../Misc/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../../../../Misc/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../../../../Misc/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../../../../Misc/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../../../../Misc/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../../../../Misc/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+/* line 103, ../../../../../../../Misc/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+/* line 32, ../../../../../../../Misc/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../../../../Misc/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/* line 4, ../components/sass/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Condensed", serif;
+  font-weight: bold;
+  color: #333; }
+
+/* line 10, ../components/sass/_base.scss */
+body {
+  background: #eee;
+  font: 1.06rem "Roboto", sans-serif;
+  line-height: 160%; }
+/* line 11, ../components/sass/_base.scss */
+body a {
+  text-decoration: none; }
+/* line 13, ../components/sass/_base.scss */
+body a:visited {
+  text-decoration: none; }
+
+/* line 23, ../components/sass/_base.scss */
+main, header, footer {
+  width: 90%;
+  margin: 0 auto; }
+
+/* line 28, ../components/sass/_base.scss */
+footer p {
+  color: #aaa;
+  font-size: 0.75rem;
+  text-align: center; }
+
+/* line 34, ../components/sass/_base.scss */
+header {
+  margin-top: 8px; }
+
+/* line 38, ../components/sass/_base.scss */
+.page {
+  border-bottom: 2.33px solid #00a99f; }
+
+/* line 42, ../components/sass/_base.scss */
+.italic {
+  font-style: italic; }
+
+/* line 13, ../components/sass/_layout.scss */
+header .logo img {
+  width: 201px; }
+/* line 17, ../components/sass/_layout.scss */
+header p {
+  color: #919191;
+  font-size: 0.79rem;
+  margin: 15.4px 0 8px 0; }
+/* line 26, ../components/sass/_layout.scss */
+header .nav li {
+  color: #00a99f;
+  font-weight: bold;
+  font-size: 1.018rem; }
+/* line 31, ../components/sass/_layout.scss */
+header .nav li a {
+  color: #333; }
+/* line 33, ../components/sass/_layout.scss */
+header .nav li a:hover {
+  border-bottom: 2.33px solid #00a99f; }
+/* line 36, ../components/sass/_layout.scss */
+header .nav li a:visited {
+  text-decoration: none; }
+
+/* line 3, ../components/sass/_modules.scss */
+.logo {
+  text-align: center; }
+/* line 5, ../components/sass/_modules.scss */
+.logo img {
+  text-align: center; }
+
+/* line 12, ../components/sass/_modules.scss */
+.nav {
+  text-align: center; }
+/* line 14, ../components/sass/_modules.scss */
+.nav li {
+  display: inline-block;
+  margin: 8px 15px 0;
+  font-size: 1.15rem; }
+
+/* line 23, ../components/sass/_modules.scss */
+.portfolio {
+  margin: 0 auto;
+  width: 90%; }
+/* line 26, ../components/sass/_modules.scss */
+.portfolio img[src="img/portfolio/ccrc.png"], .portfolio img[src="img/portfolio/fvc.png"] {
+  max-width: 250px; }
+/* line 29, ../components/sass/_modules.scss */
+.portfolio img[src="img/portfolio/viso.png"], .portfolio img[src="img/portfolio/website.png"] {
+  max-width: 250px; }
+/* line 32, ../components/sass/_modules.scss */
+.portfolio .portfolio-image {
+  margin-top: 18px;
+  width: 88.5%; }
+@media (min-width: 769px) {
+  /* line 32, ../components/sass/_modules.scss */
+  .portfolio .portfolio-image {
+    margin-top: 50.7px;
+    width: 100%;
+    max-width: 700px; } }
+/* line 41, ../components/sass/_modules.scss */
+.portfolio .portfolio-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  height: 300px;
+  margin: 20px 0;
+  padding: 20px;
+  text-align: center; }
+/* line 48, ../components/sass/_modules.scss */
+.portfolio .portfolio-item .portfolio-text {
+  color: #222;
+  margin-top: 10px; }
+/* line 51, ../components/sass/_modules.scss */
+.portfolio .portfolio-item .portfolio-text h3 {
+  font-size: 2rem;
+  margin: 20px 0 10px 0; }
+@media (min-width: 769px) {
+  /* line 23, ../components/sass/_modules.scss */
+  .portfolio {
+    width: 65.67%; } }
+
+/* line 64, ../components/sass/_modules.scss */
+.social-media-links {
+  margin: 0 auto 20px auto;
+  text-align: center; }
+/* line 67, ../components/sass/_modules.scss */
+.social-media-links ul {
+  text-align: center; }
+/* line 69, ../components/sass/_modules.scss */
+.social-media-links ul li {
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 11.5px; }
+/* line 73, ../components/sass/_modules.scss */
+.social-media-links ul li img {
+  width: 40px; }
+/* line 77, ../components/sass/_modules.scss */
+.social-media-links ul li:first-child {
+  margin-left: 0px; }
+@media (min-width: 769px) {
+  /* line 64, ../components/sass/_modules.scss */
+  .social-media-links {
+    float: right;
+    text-align: right; } }

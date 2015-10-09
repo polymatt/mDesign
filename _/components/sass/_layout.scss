@@ -1,0 +1,43 @@
+// Susy 
+
+$total-columns      : 12;
+$column-width       : 4em;
+$gutter-width       : 1em;
+$grid-padding       : $gutter-width;
+// @include border-box-sizing;
+
+// Header
+
+header {
+     .logo {
+          img {
+               width: 201px;   
+          }
+     }
+     p {
+         color: #919191;
+         font-size: 0.79rem;
+         margin: 15.4px 0 8px 0;
+     }
+    
+// Header - Navigation
+    
+     .nav {
+         li {
+             color: $main_color;
+             font-weight: bold;
+             font-size: 1.018rem;
+
+             a {
+                  color: #333;
+                  &:hover {
+                      border-bottom: 2.33px solid $main_color;   
+                  }
+                  &:visited {
+                      text-decoration: none;   
+              }
+            }
+        }
+     }
+
+}
