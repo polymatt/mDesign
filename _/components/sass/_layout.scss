@@ -4,14 +4,27 @@ $total-columns      : 12;
 $column-width       : 4em;
 $gutter-width       : 1em;
 $grid-padding       : $gutter-width;
-// @include border-box-sizing;
+
+@include border-box-sizing;
+
+$small              : 30em;
+$medium             : 47em;
+$large              : 75em;
+
+.layout {
+//    @include container;
+    padding: 0.25%;
+    @include clearfix;  
+}
 
 // Header
 
 header {
+    @include clearfix;
      .logo {
           img {
-               width: 201px;   
+               width: 201px;
+//               @include clearfix;
           }
      }
      p {
@@ -20,9 +33,23 @@ header {
          margin: 15.4px 0 8px 0;
      }
     
+    .personal-description {
+         text-align: center;
+         font-weight: bold;
+         @include at-breakpoint($large) {
+             display: inline;
+             font-size: 0.8em;
+
+         }
+    @include at-breakpoint($large) {
+//         position: relative;      
+    }
+}
+    
 // Header - Navigation
     
      .nav {
+         
          li {
              color: $main_color;
              font-weight: bold;
@@ -38,6 +65,10 @@ header {
               }
             }
         }
+        @include at-breakpoint($large) {
+            display: inline;
+            margin-top: 3.83em;
+        }    
      }
 
 }

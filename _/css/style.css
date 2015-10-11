@@ -63,50 +63,75 @@ body a:visited {
   text-decoration: none; }
 
 /* line 23, ../components/sass/_base.scss */
-main, header, footer {
-  width: 90%;
-  margin: 0 auto; }
-
-/* line 28, ../components/sass/_base.scss */
 footer p {
   color: #aaa;
   font-size: 0.75rem;
   text-align: center; }
 
-/* line 34, ../components/sass/_base.scss */
+/* line 29, ../components/sass/_base.scss */
 header {
-  margin-top: 8px; }
+  margin-top: 2em; }
 
-/* line 38, ../components/sass/_base.scss */
+/* line 35, ../components/sass/_base.scss */
 .page {
   border-bottom: 2.33px solid #00a99f; }
 
-/* line 42, ../components/sass/_base.scss */
+/* line 39, ../components/sass/_base.scss */
 .italic {
   font-style: italic; }
 
-/* line 13, ../components/sass/_layout.scss */
+/* line 14, ../../../../../../../Misc/Ruby22-x64/lib/ruby/gems/2.2.0/gems/susy-2.2.6/sass/susy/language/susyone/_grid.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 14, ../components/sass/_layout.scss */
+.layout {
+  padding: 0.25%;
+  overflow: hidden;
+  *zoom: 1; }
+
+/* line 22, ../components/sass/_layout.scss */
+header {
+  overflow: hidden;
+  *zoom: 1; }
+/* line 25, ../components/sass/_layout.scss */
 header .logo img {
   width: 201px; }
-/* line 17, ../components/sass/_layout.scss */
+/* line 30, ../components/sass/_layout.scss */
 header p {
   color: #919191;
   font-size: 0.79rem;
   margin: 15.4px 0 8px 0; }
-/* line 26, ../components/sass/_layout.scss */
+/* line 36, ../components/sass/_layout.scss */
+header .personal-description {
+  text-align: center;
+  font-weight: bold; }
+@media (min-width: 75em) {
+  /* line 36, ../components/sass/_layout.scss */
+  header .personal-description {
+    display: inline;
+    font-size: 0.8em; } }
+/* line 53, ../components/sass/_layout.scss */
 header .nav li {
   color: #00a99f;
   font-weight: bold;
   font-size: 1.018rem; }
-/* line 31, ../components/sass/_layout.scss */
+/* line 58, ../components/sass/_layout.scss */
 header .nav li a {
   color: #333; }
-/* line 33, ../components/sass/_layout.scss */
+/* line 60, ../components/sass/_layout.scss */
 header .nav li a:hover {
   border-bottom: 2.33px solid #00a99f; }
-/* line 36, ../components/sass/_layout.scss */
+/* line 63, ../components/sass/_layout.scss */
 header .nav li a:visited {
   text-decoration: none; }
+@media (min-width: 75em) {
+  /* line 51, ../components/sass/_layout.scss */
+  header .nav {
+    display: inline;
+    margin-top: 3.83em; } }
 
 /* line 3, ../components/sass/_modules.scss */
 .logo {
@@ -114,77 +139,126 @@ header .nav li a:visited {
 /* line 5, ../components/sass/_modules.scss */
 .logo img {
   text-align: center; }
+@media (min-width: 47em) {
+  /* line 5, ../components/sass/_modules.scss */
+  .logo img {
+    text-align: left; } }
+@media (min-width: 75em) {
+  /* line 3, ../components/sass/_modules.scss */
+  .logo {
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+    float: left; } }
 
-/* line 12, ../components/sass/_modules.scss */
+/* line 19, ../components/sass/_modules.scss */
 .nav {
   text-align: center; }
-/* line 14, ../components/sass/_modules.scss */
+/* line 21, ../components/sass/_modules.scss */
 .nav li {
   display: inline-block;
   margin: 8px 15px 0;
   font-size: 1.15rem; }
+@media (min-width: 75em) {
+  /* line 19, ../components/sass/_modules.scss */
+  .nav {
+    float: right;
+    display: inline; } }
 
-/* line 23, ../components/sass/_modules.scss */
+/* line 34, ../components/sass/_modules.scss */
 .portfolio {
   margin: 0 auto;
   width: 90%; }
-/* line 26, ../components/sass/_modules.scss */
-.portfolio img[src="img/portfolio/ccrc.png"], .portfolio img[src="img/portfolio/fvc.png"] {
-  max-width: 250px; }
-/* line 29, ../components/sass/_modules.scss */
-.portfolio img[src="img/portfolio/viso.png"], .portfolio img[src="img/portfolio/website.png"] {
-  max-width: 250px; }
-/* line 32, ../components/sass/_modules.scss */
+/* line 43, ../components/sass/_modules.scss */
 .portfolio .portfolio-image {
   margin-top: 18px;
-  width: 88.5%; }
-@media (min-width: 769px) {
-  /* line 32, ../components/sass/_modules.scss */
+  width: 88.5%;
+  max-width: 250px; }
+@media (min-width: 47em) {
+  /* line 43, ../components/sass/_modules.scss */
   .portfolio .portfolio-image {
-    margin-top: 50.7px;
-    width: 100%;
-    max-width: 700px; } }
-/* line 41, ../components/sass/_modules.scss */
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    margin-top: 32.7px; } }
+/* line 52, ../components/sass/_modules.scss */
 .portfolio .portfolio-item {
   background: #fff;
   border: 1px solid #ddd;
-  height: 300px;
   margin: 20px 0;
   padding: 20px;
   text-align: center; }
-/* line 48, ../components/sass/_modules.scss */
+/* line 58, ../components/sass/_modules.scss */
 .portfolio .portfolio-item .portfolio-text {
   color: #222;
   margin-top: 10px; }
-/* line 51, ../components/sass/_modules.scss */
+/* line 61, ../components/sass/_modules.scss */
 .portfolio .portfolio-item .portfolio-text h3 {
   font-size: 2rem;
   margin: 20px 0 10px 0; }
-@media (min-width: 769px) {
-  /* line 23, ../components/sass/_modules.scss */
+@media (min-width: 47em) {
+  /* line 34, ../components/sass/_modules.scss */
   .portfolio {
-    width: 65.67%; } }
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    width: 72.67%; } }
 
-/* line 64, ../components/sass/_modules.scss */
+/* line 75, ../components/sass/_modules.scss */
 .social-media-links {
   margin: 0 auto 20px auto;
   text-align: center; }
-/* line 67, ../components/sass/_modules.scss */
+/* line 78, ../components/sass/_modules.scss */
 .social-media-links ul {
   text-align: center; }
-/* line 69, ../components/sass/_modules.scss */
+/* line 80, ../components/sass/_modules.scss */
 .social-media-links ul li {
   display: inline-block;
-  margin-left: 5px;
-  margin-top: 11.5px; }
-/* line 73, ../components/sass/_modules.scss */
+  margin-left: 5px; }
+/* line 84, ../components/sass/_modules.scss */
 .social-media-links ul li img {
   width: 40px; }
-/* line 77, ../components/sass/_modules.scss */
+/* line 88, ../components/sass/_modules.scss */
 .social-media-links ul li:first-child {
   margin-left: 0px; }
-@media (min-width: 769px) {
-  /* line 64, ../components/sass/_modules.scss */
-  .social-media-links {
+@media (min-width: 47em) {
+  /* line 95, ../components/sass/_modules.scss */
+  .social-media-links ul {
+    margin-top: 0; } }
+
+@media (min-width: 47em) {
+  /* line 103, ../components/sass/_modules.scss */
+  footer p {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    display: inline; }
+  /* line 108, ../components/sass/_modules.scss */
+  footer .social-media-links {
+    width: 100%;
     float: right;
-    text-align: right; } }
+    margin-right: 0;
+    text-align: right; }
+  /* line 111, ../components/sass/_modules.scss */
+  footer .social-media-links ul {
+    text-align: right;
+    margin-left: 10px;
+    margin-bottom: 0;
+    display: inline; } }
+
+/* line 126, ../components/sass/_modules.scss */
+main, header, footer {
+  width: 100%;
+  margin: 9px auto; }
+@media (min-width: 47em) {
+  /* line 126, ../components/sass/_modules.scss */
+  main, header, footer {
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    width: 70.67%; } }

@@ -3,8 +3,15 @@
 .logo {
      text-align: center;   
      img {
-         text-align: center;      
+         text-align: center;
+         @include at-breakpoint($medium) {
+            text-align: left; 
+         }
      }
+     @include at-breakpoint($large) {
+          @include single-transition(all, 1s ease-in);
+          @include float-left;
+     }   
 }
 
 // Nav
@@ -16,6 +23,10 @@
           margin: 8px 15px 0;
           font-size: 1.15rem;
      }
+     @include at-breakpoint($large) {
+          @include float-right;
+          display: inline;
+     }    
 }
 
 // Portfolio
@@ -23,25 +34,24 @@
 .portfolio {
      margin: 0 auto;
      width: 90%;
-     img[src="img/portfolio/ccrc.png"], img[src="img/portfolio/fvc.png"] {
-         max-width: 250px;   
-     }
-     img[src="img/portfolio/viso.png"], img[src="img/portfolio/website.png"] {
-         max-width: 250px;   
-     }
+//     img[src="img/portfolio/ccrc.png"], img[src="img/portfolio/fvc.png"] {
+//         max-width: 250px;   
+//     }
+//     img[src="img/portfolio/viso.png"], img[src="img/portfolio/website.png"] {
+//         max-width: 250px;   
+//     }
      .portfolio-image {
          margin-top: 18px; 
          width: 88.5%;
-         @media (min-width: 769px) {
-              margin-top: 50.7px;
-              width: 100%;
-              max-width: 700px;
+         max-width: 250px;
+         @include at-breakpoint($medium) {
+              @include single-transition(all, 1s ease-out);
+              margin-top: 32.7px;
          }
      }
      .portfolio-item {
          background: #fff;
          border: 1px solid #ddd;
-         height: 300px;
          margin: 20px 0;
          padding: 20px;
          text-align: center;
@@ -54,8 +64,9 @@
               }
          }
     }
-    @media (min-width: 769px) {
-         width: 65.67%;   
+    @include at-breakpoint($medium) {
+         @include single-transition(all, 1s ease-in-out);
+         width: 72.67%;   
     }
 }
 
@@ -69,7 +80,7 @@
         li {
             display: inline-block;
             margin-left: 5px;
-            margin-top: 11.5px;
+
             img {
                     width: 40px;   
                }
@@ -77,10 +88,46 @@
         li:first-child {
              margin-left: 0px;   
         }
+        
     }
+//    width: 12.5%;
+    @include at-breakpoint($medium) {
+        ul {
+            margin-top: 0;
+        }
+    }
+}
 
-    @media (min-width: 769px) {
-        float: right;
-        text-align: right;
+footer {
+    @include at-breakpoint($medium) {
+        p {
+             @include span(12 of 12);
+             display: inline;
+        }
+
+        .social-media-links {
+             @include span(4 last);
+             text-align: right;
+             ul {
+                     text-align: right;
+                     margin-left: 10px;
+                     margin-bottom: 0;
+                     display: inline;
+                 }
+//            .follow-me {
+//                display: inline-block;
+//                height: 50%;
+//            }
+        }
+        }
+}
+
+
+main, header, footer {
+     width: 100%;
+     margin: 9px auto;
+     @include at-breakpoint($medium) {
+         @include single-transition(all, 1s ease-in-out);
+         width: 70.67%;   
     }
 }
