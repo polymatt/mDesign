@@ -1,0 +1,92 @@
+//
+// Images
+//
+
+img {
+	padding-top: em(20px);
+	padding-bottom: em(20px);
+	display: block;
+	width: 95%;	
+	margin: em(5px) auto;
+	@include mq(small) {
+		width: 100%;	
+	}
+}
+
+#portfolio {
+	.portfolio-piece {
+		.portfolio-img {
+			display: inline;
+			width: em(210px);
+			max-width: 70%;
+			margin-top: em(18px);
+			padding: 0;
+			@include mq(large) {
+				width: em(200px);
+				margin-right: em(10px);
+				margin-top: em(45px);
+				margin-bottom: em(20px);
+			}
+		}
+	}
+}
+
+#portfolio-expanded {
+	.header-img {
+		min-width: em(140px);
+		width: 24.5%;
+		margin-top: -40px;
+		@include mq(medium) {
+			margin: em(-80px) auto em(-60px) auto;
+		}
+		@include mq(large) {
+			width: 38.6%;
+			margin: 0 auto;
+		}
+	}
+}
+
+.icon {
+	max-width: 3%;
+	display: inline;
+	margin: 0;
+}
+
+.scribble_pen1 {
+	position: absolute;
+	top: em(88px);
+	left: em(1285px);
+	width: em(58px);
+	height: em(150px);
+}
+
+.scribble_pen2 {
+	position: absolute;
+	top: em(787px);
+	left: em(386px);
+	width: em(300px);
+}
+
+.scribble_ttt {
+	position: absolute;
+	top: em(2020px);
+	left: em(1150px);
+	width: em(160px);
+	height: em(155px);
+}
+
+.s-img {
+		@include mq(medium) {
+        	max-width: 60%;
+		}
+}
+.xs-img {
+	@include mq(medium) {
+		max-width: 45%;
+	}
+}
+
+.xxs-img {
+	min-width: em(98px);
+	max-width: 19%;
+}

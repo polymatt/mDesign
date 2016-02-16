@@ -1,0 +1,96 @@
+//
+// Mixins
+//
+
+
+// image replacer
+
+@mixin img-replace($img, $w, $h, $disp: block) {
+    background-image: url("#{$path--rel}/#{$img}");
+    background-repeat: no-repeat;
+    width: $w;
+    height: $h;
+    display: $disp;
+}
+
+
+// pseudo elements
+
+@mixin p-el(
+    $el,
+    $el-w: null,
+    $el-h: null
+    ) {
+        @if $el == "before" or $el == "after" {
+            &:#{$el} {
+                @extend %pseudos;
+                width:  $el-w;
+                height: $el-h;
+                @content;
+            }  
+        }
+        @else {
+            @error "'#{$el}' is not a valid pseudo-element...";
+        }
+}
+
+
+// BEM
+
+@mixin e($element) {
+    &__#{$element} {
+        @content;    
+    }
+}
+
+@mixin m($modifier) {
+    &--#{$modifier} {
+        @content;    
+    }
+}
+
+@mixin dubs($margin: 1em) {
+	& + & {
+		margin-left: $margin;
+		@content;
+	}
+}
+
+
+// media queries 
+
+@mixin mq($br) {
+	@if $br == "small" {
+		@media (min-width: $br-sm) and (max-width: $br-med) {
+			@content;
+		}
+	}
+	@else if $br == "medium" {
+		@media (min-width: $br-med + 1) {
+			@content;
+		}
+	}
+	@else if $br == "large" {
+		@media (min-width: $br-lg) {
+			@content;
+		}
+	}
+	@else {
+		@error "Inappropriate value passed to \"mq\" mixin; MJS, please ensure that value is a standard size (e.g. small, medium, large).";	
+	}
+}
+
+
+// grid columns
+
+@mixin g-columns {
+	@for $i from 1 through $g-col-count {
+
+		$context: g-context($g-col-width, $g-col-count, $g-gutter-width)	!global;
+		$target: ($g-col-width * $i) + ($g-gutter-width * ($i - 1));
+
+		&--#{$i} {
+			width: percentage($target / $context);
+		}
+	}	
+}

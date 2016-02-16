@@ -1,0 +1,29 @@
+//
+// Navigation
+//
+
+.nav {
+    margin-top: em(5px);
+    margin-bottom: em(4.5px);
+	padding: 0;
+    @include e(item) {
+        @extend %nav-item-disp;
+        a {
+            @extend %nav-item-links;
+            &:hover {
+                @extend %nav-item-on;
+            }
+        }
+        @include m(current) {
+            @extend %nav-item-disp;
+            a {
+                @extend %nav-item-links;
+                @extend %nav-item-on;
+            }
+        }
+    }
+	.nav__item--current a {
+		@extend %nav-item-on;
+	}
+	
+}

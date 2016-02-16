@@ -1,0 +1,10 @@
+#social-media {
+    ul li {
+        display: inline-block;
+        @include mq(small) {
+            display: block;
+            width: em(130px);
+            margin: 0 auto;
+        }
+    }
+}

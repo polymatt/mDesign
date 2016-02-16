@@ -1,0 +1,24 @@
+footer {
+	p {
+		font-family: $font-family--secondary;
+		color: $colour-accent;
+		margin: 0 auto;
+		font-weight: $font-weight--bold;
+	}
+	#social-media {
+		ul li {
+			border: em(0.01px) solid transparent;
+			a p {
+				padding: em(10px);
+				font-size: em(14px);
+				color: $colour-primary; 
+				@include mq(medium) {
+					font-size: em(18px);	
+				}
+			}
+			&:hover {
+				@extend %nav-item-on;
+			}
+		}
+	}
+}

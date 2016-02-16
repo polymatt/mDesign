@@ -1,0 +1,43 @@
+//
+// Headlines
+//
+
+#{headings()} {
+     font-family: $font-family--secondary;
+     letter-spacing: $letter-space + 1;
+     color: $colour-accent;
+	 font-weight: $font-weight--bold;
+}
+
+.headline {
+    &-primary {
+        @include m(grouped) {
+            @extend %headline-prim;
+            margin-bottom: em(8px);
+        }
+        @extend %headline-prim;
+        margin-bottom: em(18px);
+    }
+    &-secondary {
+        @include m(grouped) {
+            @extend %headline-sec;
+            margin-bottom: em(8px);
+        }
+        @extend %headline-sec;
+        margin-bottom: em(6px);
+    }
+	&-tertiary {
+		@include m(grouped) {
+			@extend %headline-tert;
+			
+		}
+		@extend %headline-tert;
+	}
+	&-quaternary {
+		@include m(grouped) {
+			@extend %headline-tert;
+			margin-bottom: 0;
+		}
+		@extend %headline-tert;
+	}
+}

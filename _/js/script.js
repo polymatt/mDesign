@@ -1,1 +1,1 @@
-function demo(){return"what's up, doc?"}
+function date(){var a=new Date,b=a.getDate(),c=a.getMonth()+1,d=a.getFullYear();10>b&&(b="0"+b),10>c&&(c="0"+c),a=b+"/"+c+"/"+d,document.getElementById("date").innerHTML=" - "+a}function hoverTouchUnstick(){if("ontouchstart"in document.documentElement)for(var a=document.styleSheets.length-1;a>=0;a--){var b=document.styleSheets[a];if(b.cssRules)for(var c=b.cssRules.length-1;c>=0;c--){var d=b.cssRules[c];d.selectorText&&(d.selectorText=d.selectorText.replace(":hover",":active"))}}}date();

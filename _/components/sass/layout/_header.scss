@@ -1,0 +1,11 @@
+//
+// Header - Layout
+//
+
+.header {
+	@include mq(large) {
+			position: fixed;
+			width: em(290px);
+			top: em(5px);
+		}
+}

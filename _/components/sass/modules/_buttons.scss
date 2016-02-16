@@ -1,0 +1,14 @@
+//
+// Buttons 
+// not a lot of buttons on mjs.design
+
+.form {
+	@include e(button) {
+		@extend	%button;
+		background-image: url(#{$path--rel}/misc/MISC_ContactFormSubmit.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-color: transparent;
+
+	}
+}

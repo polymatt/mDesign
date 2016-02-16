@@ -1,0 +1,10 @@
+//
+// Navbar
+//
+
+@include mq(large) {
+	nav.navbar {
+		margin: 0 auto;
+		width: 85%;
+	}
+}

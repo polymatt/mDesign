@@ -1,0 +1,737 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+/* line 5, ../../../../../../../Misc/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../../../../Misc/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../../../../Misc/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../../../../Misc/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../../../../Misc/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../../../../Misc/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+/* line 103, ../../../../../../../Misc/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+/* line 32, ../../../../../../../Misc/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../../../../Misc/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/* line 16, ../components/sass/utilities/_helpers.scss */
+.grid:after, .portfolio .portfolio-piece:after, .portfolio-expanded:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* line 26, ../components/sass/utilities/_helpers.scss */
+.srt, .form__label--hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+/* line 49, ../components/sass/utilities/_helpers.scss */
+.centered, .grid {
+  float: none;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* line 58, ../components/sass/utilities/_helpers.scss */
+.panel--centered, .panel--padded--centered {
+  text-align: center; }
+
+/* line 6, ../components/sass/base/_base.scss */
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: grayscale;
+  text-shadow: none;
+  text-rendering: optimizeLegibility; }
+
+/* line 15, ../components/sass/base/_base.scss */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Georgia", sans-serif;
+  background: #f9f9f9;
+  background-image: url(../../img/misc/MISC_GraphPaper.png); }
+
+/* line 31, ../components/sass/base/_base.scss */
+a {
+  text-decoration: none;
+  color: #2e3e9a; }
+
+/* line 36, ../components/sass/base/_base.scss */
+p {
+  font-size: 1.375em;
+  line-height: 1.72727;
+  margin: 0 0 1.66667em;
+  color: #252B33; }
+
+/* line 43, ../components/sass/base/_base.scss */
+ol li, ul li {
+  font-size: 1.375em; }
+
+/* line 47, ../components/sass/base/_base.scss */
+.blockquote {
+  font-size: 1.25em;
+  color: #464646;
+  font-weight: 700;
+  font-family: "Permanent Marker", cursive;
+  margin: 1.23077em 0;
+  text-align: center; }
+@media (min-width: 769px) {
+  /* line 47, ../components/sass/base/_base.scss */
+  .blockquote {
+    font-size: 1.75em; } }
+
+/* line 59, ../components/sass/base/_base.scss */
+.blockquote:before {
+  content: url(../../img/misc/MISC_BlockLine1.png);
+  display: block;
+  width: 100%;
+  margin: 1.25em auto; }
+
+/* line 66, ../components/sass/base/_base.scss */
+.blockquote:after {
+  content: url(../../img/misc/MISC_BlockLine3.png);
+  display: block;
+  width: 100%;
+  margin: 1.25em auto; }
+
+/* line 73, ../components/sass/base/_base.scss */
+img {
+  height: auto;
+  margin: 0.3125em 0 0.3125em 0; }
+
+/* line 78, ../components/sass/base/_base.scss */
+.italic {
+  font-style: italic; }
+
+/* line 82, ../components/sass/base/_base.scss */
+.bold {
+  font-weight: 700; }
+
+/* line 86, ../components/sass/base/_base.scss */
+.font-primary {
+  font-size: 1em;
+  font-family: "Georgia", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0; }
+
+/* line 94, ../components/sass/base/_base.scss */
+.icon {
+  max-width: 3%;
+  display: inline;
+  margin: 0; }
+
+/* line 100, ../components/sass/base/_base.scss */
+.scribble_pen1 {
+  position: absolute;
+  top: 88px;
+  left: 1299px;
+  width: 3.625em;
+  height: 9.375em; }
+
+/* line 108, ../components/sass/base/_base.scss */
+.scribble_pen2 {
+  position: absolute;
+  top: 891px;
+  left: 386px;
+  width: 18.75em; }
+
+/* line 115, ../components/sass/base/_base.scss */
+.scribble_ttt {
+  position: absolute;
+  top: 2140px;
+  left: 1200px;
+  width: 11.875em;
+  height: 8.75em; }
+
+/* line 123, ../components/sass/base/_base.scss */
+.red {
+  color: #fd7178; }
+
+/* line 127, ../components/sass/base/_base.scss */
+.blue {
+  color: #2e3e9a; }
+
+/* line 131, ../components/sass/base/_base.scss */
+audio {
+  width: 80%;
+  display: block;
+  margin: 1.4375em auto; }
+
+/* line 8, ../components/sass/layout/_extends.scss */
+.panel, .panel--centered {
+  padding-top: 0.75em; }
+@media (min-width: 769px) {
+  /* line 8, ../components/sass/layout/_extends.scss */
+  .panel, .panel--centered {
+    padding-bottom: 1.25em; } }
+
+/* line 15, ../components/sass/layout/_extends.scss */
+.panel--padded, .panel--padded--centered {
+  padding-top: 1.875em; }
+@media (min-width: 769px) {
+  /* line 15, ../components/sass/layout/_extends.scss */
+  .panel--padded, .panel--padded--centered {
+    padding-top: 4.0625em;
+    padding-bottom: 2.125em; } }
+
+/* line 2, ../components/sass/layout/_footer.scss */
+.social-media-links li {
+  display: inline-block; }
+@media (min-width: 1px) and (max-width: 768px) {
+  /* line 2, ../components/sass/layout/_footer.scss */
+  .social-media-links li {
+    display: block;
+    width: 11.25em;
+    margin: 0 auto; } }
+
+@media (min-width: 1136px) {
+  /* line 92, ../components/sass/utilities/_mixins.scss */
+  .grid__col--1 {
+    width: 6.5%; }
+  /* line 92, ../components/sass/utilities/_mixins.scss */
+  .grid__col--2 {
+    width: 15%; }
+  /* line 92, ../components/sass/utilities/_mixins.scss */
+  .grid__col--3 {
+    width: 23.5%; }
+  /* line 92, ../components/sass/utilities/_mixins.scss */
+  .grid__col--4 {
+    width: 32%; }
+  /* line 92, ../components/sass/utilities/_mixins.scss */
+  .grid__col--5 {
+    width: 40.5%; }
+  /* line 92, ../components/sass/utilities/_mixins.scss */
+  .grid__col--6 {
+    width: 49%; }
+  /* line 92, ../components/sass/utilities/_mixins.scss */
+  .grid__col--7 {
+    width: 57.5%; }
+  /* line 92, ../components/sass/utilities/_mixins.scss */
+  .grid__col--8 {
+    width: 66%; }
+  /* line 92, ../components/sass/utilities/_mixins.scss */
+  .grid__col--9 {
+    width: 74.5%; }
+  /* line 92, ../components/sass/utilities/_mixins.scss */
+  .grid__col--10 {
+    width: 83%; }
+  /* line 92, ../components/sass/utilities/_mixins.scss */
+  .grid__col--11 {
+    width: 91.5%; }
+  /* line 92, ../components/sass/utilities/_mixins.scss */
+  .grid__col--12 {
+    width: 100%; } }
+
+@media (min-width: 1px) and (max-width: 768px) {
+  /* line 17, ../components/sass/layout/_grid-columns.scss */
+  [class^="grid__col--"] {
+    margin-top: 0.75em;
+    margin-bottom: 0.75em; } }
+@media (min-width: 1136px) {
+  /* line 17, ../components/sass/layout/_grid-columns.scss */
+  [class^="grid__col--"] {
+    float: left;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px; }
+  /* line 53, ../components/sass/utilities/_mixins.scss */
+  [class^="grid__col--"] + [class^="grid__col--"] {
+    margin-left: 2%; }
+  /* line 29, ../components/sass/layout/_grid-columns.scss */
+  [class^="grid__col--"]:last-of-type {
+    float: right; } }
+
+/* line 6, ../components/sass/layout/_grid-container.scss */
+.grid {
+  width: 90%; }
+/* line 11, ../components/sass/layout/_grid-container.scss */
+[class*="grid__col--"] > .grid {
+  width: 100%; }
+@media (min-width: 1136px) {
+  /* line 6, ../components/sass/layout/_grid-container.scss */
+  .grid {
+    max-width: 1340px;
+    position: relative; } }
+
+@media (min-width: 1136px) {
+  /* line 1, ../components/sass/layout/_header.scss */
+  .header {
+    position: fixed;
+    width: 18.125em;
+    top: 0.3125em; } }
+
+@media (min-width: 769px) {
+  /* line 8, ../components/sass/modules/_extends.scss */
+  .nav__item, .nav__item--current {
+    display: inline-block;
+    margin: 0 1.34375em; } }
+@media (min-width: 1136px) {
+  /* line 8, ../components/sass/modules/_extends.scss */
+  .nav__item, .nav__item--current {
+    display: block;
+    margin: 0 auto; } }
+
+/* line 19, ../components/sass/modules/_extends.scss */
+.nav__item a, .nav__item--current a {
+  border: 0.00063em solid transparent;
+  color: #2e3e9a;
+  font-size: 1.0625em;
+  font-weight: 700;
+  font-family: "Permanent Marker", cursive;
+  display: block;
+  text-align: center;
+  padding: 0.875em; }
+@media (min-width: 1px) and (max-width: 768px) {
+  /* line 19, ../components/sass/modules/_extends.scss */
+  .nav__item a, .nav__item--current a {
+    font-size: 0.875em;
+    margin: 0 auto;
+    padding-top: 0.77778em;
+    padding-bottom: 0.77778em;
+    max-width: 12.5em; } }
+@media (min-width: 769px) {
+  /* line 19, ../components/sass/modules/_extends.scss */
+  .nav__item a, .nav__item--current a {
+    margin: 0 auto; } }
+
+/* line 40, ../components/sass/modules/_extends.scss */
+footer .social-media-links li:hover, .nav__item a:hover, .nav__item--current a, .nav .nav__item--current a, .nav .portfolio-project, .portfolio .portfolio-piece a.read-more:hover, .portfolio-expanded .internal-page-links a:hover, .portfolio-expanded .blue:hover {
+  border: 0.00063em black;
+  box-sizing: border-box;
+  border-image: url(../../img/misc/MISC_MarkerCircle.png) 1 fill;
+  -o-border-image: url(../../img/misc/MISC_MarkerCircle.png) 1;
+  -ms-border-image: url(../../img/misc/MISC_MarkerCircle.png) 1;
+  -moz-border-image: url(../../img/misc/MISC_MarkerCircle.png) 1 fill;
+  -webkit-border-image: url(../../img/misc/MISC_MarkerCircle.png) 1 fill; }
+
+/* line 52, ../components/sass/modules/_extends.scss */
+h1, .headline-primary--grouped, .headline-primary {
+  font-size: 1.625em;
+  line-height: 0.87273;
+  margin-bottom: 0.63158em;
+  margin-top: 0.4em; }
+@media (min-width: 769px) {
+  /* line 52, ../components/sass/modules/_extends.scss */
+  h1, .headline-primary--grouped, .headline-primary {
+    margin-top: 0.96875em;
+    font-size: 2.75em;
+    line-height: 0.8; } }
+@media (min-width: 1136px) {
+  /* line 52, ../components/sass/modules/_extends.scss */
+  h1, .headline-primary--grouped, .headline-primary {
+    margin-top: 0.4em;
+    line-height: 0.90441; } }
+
+/* line 68, ../components/sass/modules/_extends.scss */
+h2, .headline-secondary--grouped, .headline-secondary {
+  font-size: 1.5em; }
+
+/* line 75, ../components/sass/modules/_extends.scss */
+.form__button {
+  padding: 2px 30px;
+  border: 0;
+  margin-top: 1.5em;
+  color: #313131;
+  font-family: "Permanent Marker", cursive;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 1.625em;
+  font-weight: 700;
+  display: block; }
+/* line 86, ../components/sass/modules/_extends.scss */
+.form__button:hover {
+  opacity: .75;
+  color: #010101; }
+/* line 90, ../components/sass/modules/_extends.scss */
+.form__button:active {
+  opacity: initial; }
+/* line 93, ../components/sass/modules/_extends.scss */
+.form__button + .form__button {
+  margin-top: 1.5625em; }
+
+/* line 2, ../components/sass/modules/_footer.scss */
+footer p {
+  font-family: "Permanent Marker", cursive;
+  color: #454545;
+  margin: 0 auto;
+  font-weight: 700; }
+/* line 9, ../components/sass/modules/_footer.scss */
+footer .social-media-links li {
+  border: 0.00063em solid transparent; }
+/* line 11, ../components/sass/modules/_footer.scss */
+footer .social-media-links li a p {
+  padding: 1.125em;
+  font-size: 0.875em;
+  color: #2e3e9a; }
+@media (min-width: 769px) {
+  /* line 11, ../components/sass/modules/_footer.scss */
+  footer .social-media-links li a p {
+    font-size: 1.125em; } }
+
+/* line 41, ../components/sass/utilities/_mixins.scss */
+.form__label {
+  display: block;
+  margin-bottom: 0.625em; }
+/* line 41, ../components/sass/utilities/_mixins.scss */
+.form__input {
+  width: 100%;
+  font-size: 1.1875em;
+  font-family: "Georgia", sans-serif;
+  padding: 0.83333em;
+  margin-bottom: 1.25em;
+  border-bottom: 0.1875em solid #d6d7d9;
+  border-style: outset;
+  background: white;
+  color: black;
+  font-weight: 300; }
+/* line 26, ../components/sass/modules/_forms.scss */
+.form__input:focus {
+  border-color: #2e3e9a; }
+/* line 41, ../components/sass/utilities/_mixins.scss */
+.form__button {
+  background-image: url(../../img/misc/MISC_ContactFormSubmit.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: transparent; }
+
+@media (min-width: 1136px) {
+  /* line 5, ../components/sass/modules/_header.scss */
+  .header {
+    position: fixed;
+    width: 18.125em;
+    top: 0.3125em; } }
+
+/* line 13, ../components/sass/modules/_header.scss */
+.fake-draft-text {
+  position: absolute;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 700;
+  color: #515151;
+  top: 0;
+  right: 1.71875em; }
+
+/* line 5, ../components/sass/modules/_headlines.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Permanent Marker", cursive;
+  letter-spacing: 2px;
+  color: #464646;
+  font-weight: 700; }
+
+/* line 13, ../components/sass/modules/_headlines.scss */
+.headline-primary {
+  margin-bottom: 1.15789em; }
+/* line 47, ../components/sass/utilities/_mixins.scss */
+.headline-primary--grouped {
+  margin-bottom: 0; }
+/* line 21, ../components/sass/modules/_headlines.scss */
+.headline-secondary {
+  margin-bottom: 0.91667em; }
+/* line 47, ../components/sass/utilities/_mixins.scss */
+.headline-secondary--grouped {
+  margin-top: 0.41667em;
+  margin-bottom: 2.25em; }
+
+/* line 47, ../components/sass/utilities/_mixins.scss */
+.img--wrap {
+  border: 1px solid #d6d7d9;
+  padding: 0.75em; }
+/* line 47, ../components/sass/utilities/_mixins.scss */
+.img--avatar {
+  display: block; }
+/* line 47, ../components/sass/utilities/_mixins.scss */
+.img--hero {
+  margin-bottom: 2.625em; }
+
+/* line 21, ../components/sass/modules/_img.scss */
+.lightbox {
+  /** Default lightbox to hidden */
+  display: none;
+  /** Position and style */
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8); }
+
+/* line 36, ../components/sass/modules/_img.scss */
+.lightbox img {
+  /** Pad the lightbox image */
+  max-width: 90%;
+  max-height: 80%;
+  margin-top: 2%; }
+
+/* line 43, ../components/sass/modules/_img.scss */
+.lightbox:target {
+  /** Remove default browser outline */
+  outline: none;
+  /** Unhide lightbox **/
+  display: block; }
+
+/* line 5, ../components/sass/modules/_nav.scss */
+.nav {
+  margin-top: 0.3125em;
+  margin-bottom: 0.78125em; }
+/* line 24, ../components/sass/modules/_nav.scss */
+.nav .nav__item--current a {
+  border: 0.0625em black;
+  box-sizing: border-box;
+  border-image: url(../../img/misc/MISC_MarkerCircle.png) 1 fill;
+  -o-border-image: url(../../img/misc/MISC_MarkerCircle.png) 1;
+  -ms-border-image: url(../../img/misc/MISC_MarkerCircle.png) 1;
+  -moz-border-image: url(../../img/misc/MISC_MarkerCircle.png) 1 fill;
+  -webkit-border-image: url(../../img/misc/MISC_MarkerCircle.png) 1 fill; }
+/* line 34, ../components/sass/modules/_nav.scss */
+.nav .portfolio-project {
+  color: #313131;
+  padding: 0.5em;
+  font-size: 1.5em; }
+
+@media (min-width: 1136px) {
+  /* line 6, ../components/sass/modules/_navbar.scss */
+  nav.navbar {
+    margin: 0 auto;
+    width: 85%; } }
+/* line 2, ../components/sass/modules/_portfolio.scss */
+.portfolio .portfolio-piece {
+  margin-top: 1.125em;
+  margin-bottom: 0.75em;
+  padding: 1.25em;
+  border: 0.625em black;
+  border-style: inset;
+  -webkit-border-image: url(../../img/misc/MISC_MarkerRectangle.svg) 1 fill;
+  -ms-border-image: url(../../img/misc/MISC_MarkerRectangle.svg) 1;
+  -o-border-image: url(../../img/misc/MISC_MarkerRectangle.svg) 1;
+  border-image: url(../../img/misc/MISC_MarkerRectangle.svg) 1 fill;
+  -moz-border-image: url(../../img/misc/MISC_MarkerRectangle.svg) 20 repeat;
+  box-sizing: border-box; }
+/* line 15, ../components/sass/modules/_portfolio.scss */
+.portfolio .portfolio-piece .portfolio-img {
+  width: 13.125em;
+  max-width: 70%;
+  margin-top: 1.125em; }
+@media (min-width: 1136px) {
+  /* line 15, ../components/sass/modules/_portfolio.scss */
+  .portfolio .portfolio-piece .portfolio-img {
+    width: 12.5em;
+    margin-left: 0.03125em;
+    margin-top: 3.4375em;
+    margin-bottom: 1.25em; } }
+/* line 27, ../components/sass/modules/_portfolio.scss */
+.portfolio .portfolio-piece .portfolio-txt h3 {
+  font-size: 1.75em; }
+@media (min-width: 769px) {
+  /* line 31, ../components/sass/modules/_portfolio.scss */
+  .portfolio .portfolio-piece .portfolio-txt h3 {
+    font-size: 3.125em; } }
+@media (min-width: 1136px) {
+  /* line 26, ../components/sass/modules/_portfolio.scss */
+  .portfolio .portfolio-piece .portfolio-txt {
+    margin-top: 2.125em;
+    text-align: left;
+    float: right;
+    margin-right: 0.375em; } }
+/* line 42, ../components/sass/modules/_portfolio.scss */
+.portfolio .portfolio-piece a.read-more {
+  box-sizing: border-box;
+  width: 9.28125em;
+  padding: 0.5em 0.5em 0.5em 0.875em;
+  color: #2e3e9a;
+  display: block;
+  font-size: 0.9375em;
+  font-weight: 700;
+  font-family: "Permanent Marker", cursive;
+  border: 0.00063em solid transparent;
+  margin: 0 auto; }
+@media (min-width: 769px) {
+  /* line 42, ../components/sass/modules/_portfolio.scss */
+  .portfolio .portfolio-piece a.read-more {
+    width: 11.25em;
+    font-size: 1.21875em; } }
+@media (min-width: 1136px) {
+  /* line 42, ../components/sass/modules/_portfolio.scss */
+  .portfolio .portfolio-piece a.read-more {
+    margin: 0 0 0 -40px;
+    padding-left: 1.5625em;
+    text-align: left; } }
+@media (min-width: 1136px) {
+  /* line 1, ../components/sass/modules/_portfolio.scss */
+  .portfolio {
+    margin-left: 11.25em; } }
+
+/* line 75, ../components/sass/modules/_portfolio.scss */
+.portfolio-expanded {
+  margin-top: 1.125em;
+  margin-bottom: 0.75em;
+  padding: 1.25em;
+  text-align: left; }
+/* line 81, ../components/sass/modules/_portfolio.scss */
+.portfolio-expanded p {
+  margin-bottom: 0.9375em; }
+/* line 84, ../components/sass/modules/_portfolio.scss */
+.portfolio-expanded h3 {
+  font-size: 1.625em;
+  padding-top: 0.75em;
+  padding-bottom: 0.625em; }
+@media (min-width: 769px) {
+  /* line 84, ../components/sass/modules/_portfolio.scss */
+  .portfolio-expanded h3 {
+    font-size: 1.75em; } }
+/* line 92, ../components/sass/modules/_portfolio.scss */
+.portfolio-expanded h4 {
+  font-size: 1.375em;
+  padding-top: 0.625em;
+  padding-bottom: 0.5em; }
+/* line 97, ../components/sass/modules/_portfolio.scss */
+.portfolio-expanded ul, .portfolio-expanded ol {
+  margin-bottom: 0.625em;
+  font-family: "Georgia", sans-serif;
+  font-size: 1em; }
+@media (min-width: 769px) {
+  /* line 97, ../components/sass/modules/_portfolio.scss */
+  .portfolio-expanded ul, .portfolio-expanded ol {
+    padding-left: 2.5em;
+    padding-right: 2.5em; } }
+/* line 106, ../components/sass/modules/_portfolio.scss */
+.portfolio-expanded ul li, .portfolio-expanded ol li {
+  padding: 0.3125em; }
+@media (min-width: 769px) {
+  /* line 106, ../components/sass/modules/_portfolio.scss */
+  .portfolio-expanded ul li, .portfolio-expanded ol li {
+    margin-bottom: 0.5em; } }
+/* line 111, ../components/sass/modules/_portfolio.scss */
+.portfolio-expanded ul li:before, .portfolio-expanded ol li:before {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 700;
+  content: "- "; }
+/* line 118, ../components/sass/modules/_portfolio.scss */
+.portfolio-expanded ol {
+  list-style: decimal; }
+/* line 121, ../components/sass/modules/_portfolio.scss */
+.portfolio-expanded .top-img {
+  min-width: 8.75em;
+  width: 24.5%;
+  margin-top: -40px; }
+@media (min-width: 769px) {
+  /* line 121, ../components/sass/modules/_portfolio.scss */
+  .portfolio-expanded .top-img {
+    margin: -5em auto -3.75em auto; } }
+@media (min-width: 1136px) {
+  /* line 121, ../components/sass/modules/_portfolio.scss */
+  .portfolio-expanded .top-img {
+    width: 38.6%;
+    margin: 0 auto; } }
+/* line 133, ../components/sass/modules/_portfolio.scss */
+.portfolio-expanded .internal-page-links {
+  box-sizing: border-box;
+  font-size: 1.25em; }
+@media (min-width: 769px) {
+  /* line 133, ../components/sass/modules/_portfolio.scss */
+  .portfolio-expanded .internal-page-links {
+    font-size: 1.75em; } }
+/* line 139, ../components/sass/modules/_portfolio.scss */
+.portfolio-expanded .internal-page-links a {
+  border: 0.01px solid transparent;
+  padding: 0.4375em;
+  box-sizing: border-box; }
+/* line 148, ../components/sass/modules/_portfolio.scss */
+.portfolio-expanded img {
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+  display: block;
+  width: 95%;
+  margin: 0.3125em auto; }
+@media (min-width: 1px) and (max-width: 768px) {
+  /* line 148, ../components/sass/modules/_portfolio.scss */
+  .portfolio-expanded img {
+    width: 100%; } }
+@media (min-width: 769px) {
+  /* line 158, ../components/sass/modules/_portfolio.scss */
+  .portfolio-expanded .s-img {
+    max-width: 60%; } }
+@media (min-width: 769px) {
+  /* line 163, ../components/sass/modules/_portfolio.scss */
+  .portfolio-expanded .xs-img {
+    max-width: 45%; } }
+/* line 168, ../components/sass/modules/_portfolio.scss */
+.portfolio-expanded .icon {
+  max-width: 20%;
+  min-width: 6.75em;
+  display: block;
+  margin: 0 auto;
+  padding: 0; }
+/* line 175, ../components/sass/modules/_portfolio.scss */
+.portfolio-expanded .blue {
+  border: 0.01px solid transparent;
+  max-width: 11.25em;
+  margin: 0 auto;
+  box-sizing: border-box; }
+
+@media (min-width: 1px) and (max-width: 768px) {
+  /* line 5, ../components/sass/states/_collapsed.scss */
+  .is-collapsed.mobile {
+    visibility: collapse;
+    padding: 0;
+    height: 0;
+    margin: 0;
+    line-height: 0; } }
+
+@media (min-width: 1px) and (max-width: 768px) {
+  /* line 9, ../components/sass/states/_grid-display.scss */
+  .is-hidden-mobile {
+    display: none; } }
+@media (min-width: 769px) {
+  /* line 5, ../components/sass/states/_grid-display.scss */
+  .is-displayed-mobile {
+    display: none; } }
+@media (min-width: 1px) and (max-width: 768px) {
+  /* line 5, ../components/sass/states/_grid-display.scss */
+  .is-displayed-mobile {
+    display: block; } }
+
+@media (min-width: 769px) {
+  /* line 22, ../components/sass/states/_grid-display.scss */
+  .is-hidden-tablet {
+    display: none; } }
+@media (min-width: 1136px) {
+  /* line 22, ../components/sass/states/_grid-display.scss */
+  .is-hidden-tablet {
+    display: block; } }

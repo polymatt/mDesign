@@ -1,0 +1,36 @@
+// 
+// Grid Columns 
+// 
+
+
+// calculate grid columns
+
+.grid__col {
+	@include mq(large) {
+		@include g-columns;
+	}
+}
+
+
+// column styles
+
+[class^="grid__col--"] {
+	@include mq(small)  {
+		margin-top: em(8px);
+		margin-bottom: em(8px);
+	}
+	
+	@include mq(large)  {
+		@include dubs(percentage($g-gutter-width / $context));
+		float: left;
+		min-height: 1px;
+		padding-left: 10px;
+		padding-right: 10px;
+		&:last-of-type {
+			float: right;	
+		}
+	}
+}
+
+
+

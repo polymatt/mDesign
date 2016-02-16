@@ -1,0 +1,83 @@
+//
+// Base 
+// defines foundational styles for basic elements
+
+
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: grayscale;
+	text-shadow:none;
+	text-rendering: optimizeLegibility;
+}
+
+body {
+    font-size  : $base__font-size;
+    line-height: $base__line/$base__font-size;
+    font-family: $font-family--primary;
+	
+	// overflow-x to keep the absolute "scribble" imgs from forcing a horizontal scroll bar as the site view narrows between large and 		   medium mqs
+	
+    overflow-x: hidden;
+	background: #f9f9f9;
+    background-image: url(#{$path--rel}/misc/MISC_GraphPaper.png);
+}
+
+h1 {
+    @extend %headline-prim;
+}
+
+h2 {
+    @extend %headline-sec;
+}
+
+h3 {
+	@extend %headline-tert;
+}
+
+h4 {
+	@extend %headline-qua;	
+}
+
+a {
+    text-decoration: none;
+	color: $colour-primary;
+}
+
+p {
+	line-height: (38px / 22px);
+	margin: 0 0 em(24px, 18px);
+	color: #252B33;
+}
+
+p, ol li, ul li {
+	font-size: em(22px);
+}
+
+ul, ol {
+	margin-bottom: em(10px);
+	font-family: $font-family--primary;
+	font-size: em(16px);
+	@include mq(medium) {
+		padding-left: em(40px);
+		padding-right: em(40px);
+	}
+	li {
+		padding: em(5px);
+		@include mq(medium) {
+			margin-bottom: em(8px);	
+		}
+	}
+}
+	
+ol {
+		list-style: decimal;	
+}
+
+
+audio {
+	width: 80%;
+	display: block;
+	margin: em(23px) auto;
+}

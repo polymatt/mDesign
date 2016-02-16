@@ -1,90 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Dear Smart-Human-Who-Looks-at-Website-Source-Code: you should look at this project's code on GitHub instead (https://github.com/polymatt/mjs.design). -->
+
 <head>
-    <meta charset="UTF-8">
-    <title>Matthew J. Smith | Designer</title>
-    <link rel="stylesheet" href="_/css/style.css">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Matthew J. Smith, UX Designer | Portfolio</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="noindex">
+	<link rel="stylesheet" href="_/css/style.css">
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+	<meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
-    <header>
-<!--        <div class="layout">-->
-            <div class="logo">
-                <a href=""><img src="img/logo/logo.svg" alt="Personal Logo"></a>
-                <p class="personal-description">Matthew J. Smith is a User Experience Designer in Toronto</p>
-            </div>
-<!--        </div>-->
-        <nav>
-<!--            <div class="layout">-->
-                <ul class="nav">
-                    <li><a href="#" class="page">Portfolio</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-<!--            </div>-->
-        </nav>
-    </header>
-    <main class="portfolio">
-        <div class="layout">
-            <div class="portfolio-item">
-                <a href="#">
-                    <img src="img/portfolio/ccrc.png" alt="Image for ccrc" class="portfolio-image"> </img>
-                    <div class="portfolio-text">
-<!--                        <h3>ccrc</h3>-->
-                        <p>Craft beer wayfarers distillery meggings organic, 8-bit occupy Shoreditch viral locavore single-origin coffee selfies Austin mixtape sustainable.</p>
-                    </div>
-                </a>
-            </div>
-            <div class="portfolio-item">
-                <a href="#">
-                    <img src="img/portfolio/fvc.png" alt="Image for fvc" class="portfolio-image"></img>
-                    <div class="portfolio-text">
-<!--                        <h3>fvc</h3>-->
-                        <p>Craft beer wayfarers distillery meggings organic, 8-bit occupy Shoreditch viral locavore single-origin coffee selfies Austin mixtape sustainable.</p>
-                    </div>
-                </a>
-            </div>
-            <div class="portfolio-item">
-                <a href="#"><img src="img/portfolio/viso.png" alt="Image for VisoCast, a class project" class="portfolio-image"></img>
-                    <div class="portfolio-text">
-                        <p>Graft beer wayfarers distillery meggings organic, 8-bit occupy Shoreditch viral locavore single-origin coffee selfies Austin mixtape sustainable.</p>
-                    </div>
-                </a>
-            </div>
-            <div class="portfolio-item">
-                <a href="#">
-                    <img src="img/portfolio/website.png" alt="Image for website" class="portfolio-image"></img>
-                    <div class="portfolio-text">
-                        <p>Craft beer wayfarers distillery meggings organic, 8-bit occupy Shoreditch viral locavore single-origin coffee selfies Austin mixtape sustainable.</p>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </main>
-    <footer>
-        <div class="layout">
-            <div class="social-media-links">
-                <span class="follow-me">Follow me <span class="italic">everywhere:</span></span>
-                <ul>
-                    <li>
-                        <a href="http://github.com"><img src="img/social_media/github.png" alt="Icon for GitHub" class="icon"></a>
-                    </li>
-                    <li>
-                        <a href="http://twitter.com"><img src="img/social_media/twitter.png" alt="Icon for Twitter" class="icon"></a>
-                    </li>
-                    <li>
-                        <a href="http://soundcloud.com"><img src="img/social_media/soundcloud.png" alt="Icon for Soundcloud" class="icon"></a>
-                    </li>
-                </ul>
-            </div>
-            <br />
-        </div>
-                    <p>Built with Sass, Compass and Grunt; Written in <span class="italic"><a href="#">Vim</a></span> and <span class="italic"><a href="#">Brackets<br /></a></span>Design and Development by Matthew J. Smith &copy; 2015</p>
-    </footer>
-    <script src="_/js/script.js"></script>
-    <script src="http://localhost:35729/livereload.js"></script>
+	<div class="grid">
+		<header class="grid__col--3 header panel--centered" role="banner">
+			<a class="site-logo" href="index.html">
+				<h1 class="headline-primary--grouped">Matthew J. Smith</h1>
+				<h1 class="headline-primary--grouped"><span class="red">UX Designer</span></h1>
+				<h1 class="headline-primary">Toronto</h1>
+			</a>
+			<nav class="navbar" role="navigation">
+				<ul class="nav">
+					<li class="nav__item--current"><a href="#">PORTFOLIO</a></li>
+					<li class="nav__item"><a href="about.html">ABOUT</a></li>
+					<li class="nav__item"><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</nav>
+		</header>
+		<p class="fake-draft-text is-hidden-mobile" data-tip="a functionless - but fun, maybe? - fake draft text.">mjs.design draft &#35;2<span id="date"></span></p>
+		<div id="portfolio" class="grid__col--9 panel--centered">
+			<div class="portfolio-piece">
+				<a href="fvc.html"><img class="portfolio-img grid__col--4" src="img/portfolio/FVC_Logo.png" alt="Portfolio image (a brand) for FVC."></a>
+				<div class="portfolio-txt grid__col--8">
+					<h2 class="headline-secondary">FVC</h2>
+					<p>I was the strategy-to-surface Project Manager and UX Designer on the development of an enterprise software.</span>
+					</p>
+					<p><a class="find-out-more" href="fvc.html">Find out more...</a></p>
+				</div>
+			</div>
+			<div class="portfolio-piece">
+				<a href="ccrc.html"><img class="portfolio-img grid__col--4" src="img/portfolio/CCRC_Logo.png" alt="Portfolio image (a brand) for the CCRC."></a>
+				<div class="portfolio-txt grid__col--8">
+					<h2 class="headline-secondary">CCRC</h2>
+					<p>I did UX Design for the development of a cool new web property for a creative not-for-profit.</p>
+					<p><a class="find-out-more" href="ccrc.html">Find out more...</a></p>
+				</div>
+			</div>
+			<div class="portfolio-piece">
+				<a href="mjs.html"><img class="portfolio-img grid__col--4" src="img/portfolio/MJS_Logo.png" alt="Portfolio image (a brand) for my website."></a>
+				<div class="portfolio-txt grid__col--8">
+					<h2 class="headline-secondary">MJS.DESIGN</h2>
+					<p>I did the web and UX Design and web development for this website. <span class="italic">This very website.</span></p>
+					<p><a class="find-out-more" href="mjs.html">Find out more...</a></p>
+				</div>
+			</div>
+			<div class="portfolio-piece">
+				<a href="other_projects.html"><img class="portfolio-img grid__col--4" src="img/portfolio/VISO_Logo.png" alt="Portfolio image (a brand) for VisoCast."></a>
+				<div class="portfolio-txt grid__col--8">
+					<h2 class="headline-secondary">VisoCast</h2>
+					<p>I did UX Design / UX Research for a fake Netflix/YouTube combination service.</p>
+					<p><a class="find-out-more" href="visocast.html">Find out more...</a></p>
+				</div>
+			</div>
+			<div class="portfolio-piece">
+				<a href="other_projects.html"><img class="portfolio-img grid__col--4" src="img/portfolio/OTHER_Logo.png" alt="Portfolio image for Other Projects."></a>
+				<div class="portfolio-txt grid__col--8">
+					<h2 class="headline-secondary">Other Projects</h2>
+					<p>I did a whole lot of UX Design/Research for school. There are content audits, user personas <span class="italic">and more, glorious more</span> in here.</p>
+					<p><a class="find-out-more" href="other_projects.html">Find out more...</a></p>
+				</div>
+			</div>
+			<img class="scribble_pen1 is-hidden-mobile is-hidden-tablet" src="img/misc/MISC_PenScribble1.png" alt="First fake pen scribble.">
+			<img class="scribble_pen2 is-hidden-mobile is-hidden-tablet" src="img/misc/MISC_PenScribble2.png" alt="Second fake pen scribble.">
+			<img class="scribble_ttt is-hidden-mobile is-hidden-tablet" src="img/misc/MISC_PenTTT.png" alt="Fake pen tic-tac-toe.">
+			<footer role="contentinfo">
+				<div id="social-media">
+					<p>Follow me everywhere:</p>
+					<ul>
+						<li>
+							<a href="https://github.com/polymatt">
+								<p>GitHub</p>
+							</a>
+						</li>
+						<li>
+							<a href="https://twitter.com/polymatt">
+								<p>Twitter</p>
+							</a>
+						</li>
+						<li>
+							<a href="https://ca.linkedin.com/in/matthew-smith-833115b6">
+								<p>LinkedIn</p>
+							</a>
+						</li>
+						<li>
+							<a href="https://dribbble.com/polymatt">
+								<p>Dribbble</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<p>Design and Code by Matthew J. Smith &copy; 2016</p>
+				<p>Coded in <span class="italic">Vim</span> and <span class="italic">Brackets</span></p>
+		</div>
+		</footer>
+	</div>
+	</div>
+	<script src="_/js/script.js"></script>
 </body>
 
 </html>

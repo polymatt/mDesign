@@ -1,0 +1,23 @@
+//
+// Extends - Layout
+//
+
+
+// Panels 
+
+%panel-default {
+	padding-top: em(4px);
+	@include mq(medium) {
+		padding-bottom: em(20px);
+	}
+}
+
+%panel-padding {
+	padding-top: em(24px);
+	@include mq(medium) {
+		padding-top: em(65px);
+		padding-bottom: em(34px);
+	}
+}
+
+

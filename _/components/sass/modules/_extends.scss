@@ -1,0 +1,126 @@
+//
+// Extends - Modules
+//
+
+
+// Navigation Items
+
+%nav-item-disp {
+	@include mq(medium) {
+		display: inline-block;
+		margin: 0 em(21.5px);
+	}
+	@include mq(large) {
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+%nav-item-links {
+    border: em(0.01px) solid transparent;
+	color: $colour-primary; 
+    font-size: em(17px);
+    font-weight: $font-weight--bold;
+    font-family: $font-family--secondary;
+    display: block;
+	text-align: center;
+    padding: em(14px);
+	@include mq(small) {
+		font-size: em(14px);
+		margin: 0 auto;
+		padding-top: em(14px, 18px);
+		padding-bottom: em(6px, 8px);
+		max-width: em(200px);
+	}
+	@include mq(medium) {
+		margin: 0 auto;	
+	}
+	@include mq(large) {
+		padding: em(12px);
+	}
+}
+
+%nav-item-on {
+    border: em(0.01px) black;
+    box-sizing: border-box;
+    border-image: $MarkerCircle 1 fill;
+    -o-border-image: $MarkerCircle 1;
+	-ms-border-image: $MarkerCircle 1;
+	-moz-border-image: $MarkerCircle 1 fill;
+    -webkit-border-image: $MarkerCircle 1 fill;
+}
+
+// Portfolio Items' Border
+// $Marker Rectangle in _config
+
+%drawn-rectangle {
+	border: em(10px) black;
+	border-style: inset;
+	-webkit-border-image: $MarkerRectangle 1 fill;
+	-ms-border-image: $MarkerRectangle 1;
+	-o-border-image: $MarkerRectangle 1;
+	border-image: $MarkerRectangle 1 fill;
+	-moz-border-image: $MarkerRectangle 20 repeat;
+	box-sizing: border-box;
+}
+
+// Headlines 
+
+%headline-prim {
+    font-size: em(28px);
+    line-height: (48px / 55px);
+    margin-bottom: em(24px, 38px);
+    margin-top: em(6.4px);
+	@include mq(medium) {
+		margin-top: em(15.5px);
+		font-size: em(44px);
+    	line-height: (48px / 60px);
+	}
+	@include mq(large) {
+		margin-top: em(6.4px);
+		line-height: (61.5px / 68px);
+	}
+}
+
+%headline-sec {
+    font-size: em(26px);
+	@include mq(medium) {
+		margin-top: em(4px);
+		font-size: em(42px);
+    	line-height: (48px / 60px);
+	}
+}
+
+%headline-tert {
+	font-size: em(22px);	
+}
+
+%headline-qua {
+	font-size: em(22px);	
+}
+
+
+// Buttons
+
+%button {
+	padding: 2px 30px;
+	border: 0;
+	margin-top: em(24px);
+	color: #313131;
+	font-family: $font-family--secondary;
+	width: 100%;
+	text-transform: uppercase;
+	font-size: em(26px);
+	font-weight: $font-weight--bold;
+	display: block;
+	&:hover {
+		opacity: .75;
+		color: #010101;
+	}
+	&:active {
+		opacity: initial;	
+	}
+	& + & {
+		margin-top: em(25px);
+	}
+}

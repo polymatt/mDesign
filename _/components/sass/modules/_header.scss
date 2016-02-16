@@ -1,0 +1,26 @@
+//
+// Header - Module
+//
+
+.header {
+	@include mq(large) {
+			position: fixed;
+			width: em(290px);
+			top: em(5px);
+		}
+}
+
+.fake-draft-text {
+	position: absolute;
+	font-family: $font-family--secondary;
+	font-weight: $font-weight--bold;
+	color: lighten($colour-accent, 7.85%);
+	top: 0;
+	right: em(27.5px);
+	@include mq(medium) {
+		font-size: em(18px);	
+	}
+	@include mq(large) {
+		font-size: em(20.5px);	
+	}
+}

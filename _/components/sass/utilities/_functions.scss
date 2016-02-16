@@ -1,0 +1,25 @@
+//
+// Functions
+// Sass functions
+
+
+// Calculate ems 
+
+@function em($target, $context: $base__font-size) {
+    @return ($target / $context) * 1em;        
+}
+
+
+// Colour palette modifiers
+
+@function palette($palette, $shade: "base") {
+    @return map-get(map-get($palettes, $palette), $shade);    
+}
+
+
+// Set context width for grid
+
+@function g-context($g-col-width, $g-col-count, $g-gutter-width) {
+  	$g-context: ($g-col-width * $g-col-count) + ($g-gutter-width * ($g-col-count - 1));
+  	@return $g-context;
+}

@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Dear Smart-Human-Who-Looks-at-Website-Source-Code: you should look at this project's code on GitHub instead (https://github.com/polymatt/mjs.design). -->
+
+<head>
+	<title>Matthew J. Smith, UX Designer | mjs.design</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="noindex">
+	<link rel="stylesheet" href="_/css/style.css">
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+	<div class="grid">
+
+		<header class="grid__col--3 header panel--centered" role="banner">
+			<a class="site-logo" href="index.html">
+				<h1 class="headline-primary--grouped">Matthew J. Smith</h1>
+				<h1 class="headline-primary--grouped"><span class="red">UX Designer</span></h1>
+				<h1 class="headline-primary">Toronto</h1>
+			</a>
+			<nav class="navbar" role="navigation">
+				<ul class="nav">
+					<li class="nav__item"><a href="index.html">PORTFOLIO</a></li>
+					<!--				   <h2 class="portfolio-project is-hidden-mobile is-hidden-tablet">mjs.design</h2>-->
+					<li class="nav__item"><a href="about.html">ABOUT</a></li>
+					<li class="nav__item"><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</nav>
+		</header>
+		<p class="fake-draft-text is-hidden-mobile" data-tip="A functionless - but fun - fake draft text.">mjs.design draft &#35;2<span id="date"></span></p>
+		<div id="portfolio-expanded" class="grid__col--9 panel--centered">
+			<img class="portfolio-img grid__col--4 header-img" src="img/portfolio/MJS_Logo.png" alt="My logo.">
+			<h1 class="headline-primary">mjs.design</h1>
+			<h3>0.0: Project Overview</h3>
+			<h4>Duration: <span class="font-primary">4+ months, on-and-off, work-schedule dependent</span></h4>
+			<h4>Tools: <span class="font-primary">paper, dry-erase marker, Google Sheets, scanner, AxureRP, Adobe Photoshop, Adobe Illustrator</span></h4>
+			<h4>Deliverables: <span class="font-primary">research, storyboard, persona, competitive audit, card sort, sitemap, lo-fi and hi-fi wireframes</span></h4>
+			<h4>Team Size: <span class="font-primary">1</span></h4>
+			<h4>My Own Role: <span class="font-primary">UX Designer and researcher, visual designer, web developer</span></h4>
+			<h4>Time to Read: <span class="font-primary">~20 minutes</span></h4>
+			<br />
+			<h3>0.1: Introduction</h3>
+			<p>
+				In 2015 I decided to develop a portfolio site to showcase my UX-related works and professional development.
+			</p>
+			<p>
+				I looked at WordPress or Squarespace themes at first; but then thought:
+			</p>
+			<p>
+				Do I need a robust content management system for 90% greenfield website?
+			</p>
+			<p>
+				The answer was no. I would be the website’s sole operator - the “webmaster”, as I would come to refer to myself; and ask loved ones to refer to me - and would be able to update it as I produced new, and distributable, works.
+			</p>
+			<p>
+				<span class="bold">I knew how to code</span>; I could write HTML, CSS (and Sass), JavaScript (and jQuery), SQL, etc. through years of professionally (and personally) sitting in front of computers.
+			</p>
+			<p>
+				So: why not treat my portfolio website like a digital project that I’d manage from start to finish? “strategy” to “surface”?
+			</p>
+			<p>
+				That’s what I did. I documented the process - and learned a lot through it - so at the end, I decided to include it here as a navel-gazing, self-congratulatory portfolio piece.
+			</p>
+			<p>
+				As a caveat: this piece is long-winded and (largely) informal.
+			</p>
+			<h3>0.2: The Challenge</h3>
+			<p>
+				Because I wanted to move in to a UX job full-time, I needed a portfolio to showcase my UX chops (what chops they were).
+			</p>
+			<p>
+				I’d come to UX Design while I was managing a software development project at my old job. <span class="bold">I'd been tasked with building an enterprise-level stats program</span> (which can be seen <a href="fvc.html">here</a>) and needed perspective on how users who weren’t me interacted with computers and computer software.
+			</p>
+			<p>
+				I needed to learn. I decided to return to school.
+			</p>
+			<p>
+				I studied UX Design under Matt Humphreys of <span class="italic">T4G Kick</span> and Aaron Bernardo of <span class="italic">IBM</span>, both based primarily in Toronto, and found - through assignments and their fantastic instruction - that 1) I loved it; and 2) that I’d been doing UX Design - sans name - for years through different positions and projects.
+			</p>
+			<p>
+				I wanted to move into it full-time; so I needed to put the works that I’d developed through the years in to a simple-to-use portfolio website that I would:
+			</p>
+			<ul>
+				<li>conceptualize</li>
+				<li>design</li>
+				<li>develop</li>
+				<li>test</li>
+			</ul>
+			<p>
+				all myself.
+			</p>
+			<p>
+				As a doomed sea captain might have said once:
+			</p>
+			<p>
+				“Y'arr, rough seas ahead.”
+			</p>
+			<h3>1.0: Strategy: What I Wanted; What My Users Wanted; and My Competition</h3>
+			<p>
+				There are a lot of approaches to UX. <span class="bold">Consider Jesse James Garrett’s “Five Planes”</span>, which I adhered to for this project:
+			</p>
+			<ul>
+				<li>Strategy: what will users get out of our product? what will we get out of it?</li>
+				<li>Scope: what will the product do? what <span class="italic">won’t</span> it do?</li>
+				<li>Structure: how will the product be organized? how do users get from A to B? what happens <span class="italic">after</span> B?</li>
+				<li>Skeleton: how will product be laid out? where does the copy go? where does the nav go? how does the experience degrade (for older browsers, different device sizes, etc.)?</li>
+				<li>Surface: how will the product look (colour, style of buttons, etc.)?</li>
+			</ul>
+			<br />
+			<p>
+				This is a cursory overview; but those are some of the main points of the “Five Planes”. It’s important to remember too that there should be as much user/stakeholder involvement as is possible (or feasible) at each “plane”.
+			</p>
+			<p>
+				As the project’s main stakeholder, for my own strategizing, I considered what I wanted to get out of the website, and what I wanted my users to get out of it.
+			</p>
+			<h4>1.1: My Own Goals for the Site:</h4>
+			<ul>
+				<li>To gain employment as a UX professional</li>
+				<li>To illustrate to employers that I could be a good asset</li>
+				<li>To share information about UX Design and UX Research</li>
+			</ul>
+			<h4>1.2: Users’ Goals for the Site:</h4>
+			<ul>
+				<li>To understand simply and quickly how important my skills are to them</li>
+				<li>To see visual representations of work that I’d done (for quality)</li>
+				<li>To contact me</li>
+				<li>To learn more about me, and my past work experience</li>
+				<li>To connect with me via social media</li>
+			</ul>
+			<h4>1.3: Time and Context</h4>
+			<p>
+				I envisioned my users as time-poor professionals in an office (traditional or mobile) context.
+			</p>
+			<p>
+				These were people who wouldn’t have time to figure out an interface, or want to look at a lot of superfluous graphics. They would want to see - immediately - who I was, and what projects I’d worked on, my résumé; and if, at that point, their interest was piqued, spend more time to dig down into the expanded portfolio pieces (like the one that you’re reading right now) that were scannable (i.e. imagery, lots of contrast, font family and weight variance, etc.)
+			</p>
+			<p>
+				<span class="bold">The website would need to be perfectly responsive</span> too across browsers/operating systems. I imagined my users receiving an email from me, an interested applicant for a job for which they were hiring, and opening it on their phone or tablet on-the-go.
+			</p>
+			<p class="blockquote">
+				I envisioned my users as time-poor professionals in an office (traditional or mobile) context.
+			</p>
+			<p>
+				I like to draw storyboards when I’m thinking about users’ time and context. <span class="bold">Storyboards can facilitate user empathy by forcing you (as the designer) to consider when, where, how, etc. a user is coming to use your product</span>, and what benefits they’re seeking from its use.
+			</p>
+			<img src="img/portfolio/MJS_Storyboard.png" class="s-img" alt="A storyboard showing a prospective employer coming upon my website and feeling impressed.">
+			<p>
+				So: the website needed to be simple, display my UX-related works in an accessible, responsive way, and be time-respectful and context-respectful of my users.
+			</p>
+			<p>I had my road-map. But before I moved on, I wanted to check out who my competition was; and what their websites looked like based on the ideas that I had for my own.
+			</p>
+			<h4>1.4: Competitor Research</h4>
+			<p>
+				I audited a bunch of UX portfolios.
+			</p>
+			<p>
+				They (mostly) resembled this image that I threw together in Adobe Illustrator:
+			</p>
+			<img src="img/portfolio/MJS_FakeUXPortfolio.png" alt="A (fake) UX Designer’s website.">
+			<p>
+				Some had strange titles. “USER EXPERIENCE ASTRONAUT”, “INFORMATION BRAIN SURGEON”, etc. <span class="bold">The titles these people had given themselves represented, in a sense, bad UX.</span> What does an “Information Brain Surgeon” do?
+			</p>
+			<p>
+				Below the fold, what usually followed were enormous graphics; pie charts (“40% ADOBE CC KNOWLEDGE… 5% SMILES… etc.”) that didn’t have much to do with the rest of the site’s content.
+			</p>
+			<p>
+				Hidden amongst the fluff was - sometimes - 1 - 2 images of a Twitter (or other popular app) redesign that they’d done in Photoshop.
+			</p>
+			<p>
+				These were, for the most part, graphic design portfolios masquerading as UX Design portfolios. A lot of hi-fi mock-ups; but nothing related to research (or even users, a lot of the time), or process.
+			</p>
+			<p>
+				Do I sound bitter? I hope not; but I looked at so many of these portfolios. In a sense, <span class="bold">the competitive audit gave me insight in to what my users - employers - were likely to have experienced while assessing UX candidates</span> for positions.
+			</p>
+			<p>
+				This competitor research would go on to inform my own designs; and insight into what my users’ process of assessing UX candidates probably looked like led nicely into user research.
+			</p>
+			<h3>1.5: User Research</h3>
+			<p>
+				It shouldn’t come as a surprise that User Experience Design is about users’ experience of products. <span class="bold">Will their experience be painful, or joyful?</span> Good, or bad?
+			</p>
+			<p>
+				Painful experiences lead to bounces; but what does painful mean? Joe, 54, with low tech. knowledge, could find even a “hamburger” navigation painful; whereas Kim, 17, with high tech. knowledge, could find the opposite (that it reduces visual clutter, etc.).
+			</p>
+			<p>
+				In <span class="italic"><a href="http://www.amazon.com/Lean-UX-Applying-Principles-Experience/dp/1449311652">The Lean UX</a></span> by Jeff Gothelf, one of my favourite books about UX in general, applies lean manufacturing principles to the UX process and advocates a fast release schedule to solicit user feedback, and then iterating and designing based on that feedback.
+			</p>
+
+			<p>
+				Basically: <span class="bold">get users involved as early as possible (via testing, interviews, surveys, etc.)</span>, and keep involving them throughout the process.
+			</p>
+			<p>
+				What I like to do early on is do a few information interviews with people representative of my imagined (or desired) users. These are informal, done usually via phone or email, and can be incentivized or not (I find small-denomination Starbucks gift cards to be a beloved option).
+			</p>
+			<p>
+				What these interviews help me to do is build representative user personas that I can base my designs on. Ideally, I’d test every single change I ever made to a product design with real users; <span class="bold">but in an existence of limited resources and unlimited wants, personas fill in a critical gap</span> in the design process, allowing a designer to ask him/herself: would this change work for Joe / Kim / whoever?
+			</p>
+			<p>
+				I reached out through online and personal networks and connected with three people (via email) who had hired for UX positions in the past.
+			</p>
+			<p class="blockquote">
+				Basically: get users involved as early as possible (via testing, interviews, surveys, etc.), and keep involving them throughout the process.
+			</p>
+			<p>
+				I chose not to employ surveys for this part; these were just informal conversations (“what’s the worst part about hiring UX professionals?” etc.) and from them, I built Gavin:
+			</p>
+			<img src="img/portfolio/MJS_UserPersona.png" alt="A user persona of a product manager that I developed for my website.">
+			<p>
+				I would refer back to Gavin for the rest of the process. <span class="bold">I elected to assume that most - all of my users would be prospective employers</span>; and regardless, non-employer users weren’t, admittedly, my website’s target. Their experience of mjs.design was a secondary consideration at that point. What <span class="italic">was</span> important for me to consider was that not all employers would have experienced UX knowledge. I would strive to develop for Gavin; but simplicity - and keeping the site mostly UX jargon-free - would be at the heart of my content strategy, later on in my process.
+			</p>
+			<h4>1.6: Competitive Audit</h4>
+			<p>
+				Because I wasn’t building improvements to an existing website, I instead used competitors’ websites to get an idea of the features that I should focus on.
+			</p>
+			<p>
+				I had Gavin to consider; but I also <span class="bold">asked a colleague who had experience with hiring for tech. positions if she’d act as a prospective employer and do a bit of testing</span> of competitors’ websites with me.
+			</p>
+			<p>
+				She said no. But then I used a secret research technique of mine - “bribe desired participants with gift cards” - and we began:
+			</p>
+			<p>
+				I selected 3 portfolio websites for the simple test. I wanted to see how easily my participant could accomplish the following goals with them:
+			</p>
+			<ol>
+				<li>Get the name and position of the portfolio owner (e.g. Kelly, UX Researcher)</li>
+				<li>Find representations of their work; do they seem detailed to you? Why or why not?</li>
+				<li>Get contact info., either name or email</li>
+			</ol>
+			<p>
+				I conducted this test at my participant’s home, using her own computer. I'd brought a USB stick with a .pdf that I'd prepared with questions, but discovered - to her surprise even - that her printer had run out of ink; <span class="bold">so I wrote out my questions on paper</span> (like a caveman) and she answered after each. The results for one of the websites tested is here (see that I’ve redacted the website’s URL, as well as the name/position of the owner):
+			</p>
+			<img src="img/portfolio/MJS_CompetitiveTest.jpg" class="s-img" alt="The results of a simple competitive test that I did on a competitor’s own portfolio website.">
+			<p>
+				It wasn’t formal, solid research by any means; but I was able to use the results as a partial basis for my own designs (re: what to include, what not to include, etc.).
+			</p>
+			<h3>2.0: Scope: What My Portfolio Needed to Do; and What it Didn’t Need to Do</h3>
+			<p>
+				I knew from my research that <span class="bold">my users would (likely) be time-poor professionals</span> viewing my portfolio either in a go-go-go office environment or on mobile (in transit, at home, etc.).
+			</p>
+			<p>
+				I wanted to offer these users a fast, simple experience; and a method to contact me if they wished to <span class="italic">(please wish to).</span>
+			</p>
+			<p>
+				What I needed was:
+			</p>
+			<ul>
+				<li>A Logo/Brand image which the user can click to return them to the front page</li>
+				<li>A Portfolio page with individual portfolio items, each featuring an image related to the item, written copy describing the item, and a button to expand the item into its own page (“See More”, etc.)</li>
+				<li>Expanded Portfolio pages for each portfolio item, featuring process, research, content, etc. relevant to it</li>
+				<li>An About page with information about me: who I am, my work history (a downloadable .pdf resume, perhaps)</li>
+				<li>A Contact page with contact information for me</li>
+				<li>A Nav with clickable links for Portfolio, About and Contact</li>
+				<li>Social Media links to my various social media feeds/accounts</li>
+			</ul>
+			<br />
+			<p>
+				What I <span class="italic">didn’t</span> need was:
+			</p>
+			<ul>
+				<li>An enormous Hero Image</li>
+				<li>Superfluous graphics, animations (increase load times, etc.)</li>
+				<li>Infographics related to my skills; I’d either demonstrate them with my work, or I wouldn’t. There was no point wasting my users time with simple statements re: what I could or couldn’t do</li>
+			</ul>
+			<br />
+			<p>
+				So: a lot to consider; but it all would inform my decisions as I advanced into my website’s Information Architecture.
+			</p>
+			<h3>3.0: Structure: the Information Architecture</h3>
+			<h4>3.1: Content Audit/Inventory</h4>
+			<p>
+				In general, I’d kick off information architecture with a content audit; but the website was new and there was no internal content to audit.
+			</p>
+			<p>
+				However: what I did have was a pile of external content that I needed to do an inventory for. <span class="bold">I’d done a lot of UX-related work over the last four years</span>, and it all had to be assembled and then the most representative pieces arranged in process order (with a lot necessarily omitted).
+			</p>
+			<p>
+				This took me some time. I was pleased to have the volume of work that I did to showcase; but poring through years-old documents, notes; hunting down files that I’d emailed to myself or others… it was a labour; but one of love (and some cement).
+			</p>
+			<p>
+				With the pieces that I was going to use for my portfolio decided on, I refocused on my website’s internal content, and Information Architecture.
+			</p>
+			<h4>3.2: Card Sorting</h4>
+			<p>
+				The website was simple; but I wanted to do a card sort anyway to get a feel for what my users might expect the site’s structure to look like.
+			</p>
+			<p>
+				I decided to do an open card sort, where I write out the “cards” (which represent pages, files, etc.) and sorters place each card below of categories <span class="bold">which they define themselves based on where they would expect to find each card’s content on a finished website</span>.
+			</p>
+			<p>
+				I reached out to participants that I’d connected with in the Strategy phase and conducted the sorts remotely using Skype (for instructions) and Google Sheets (for the sorts themselves).
+			</p>
+			<p>
+				(P.S. I had to show one of the participants how to use/share with Google Sheets before they were able to do the card sort. I was able to do this over Skype; but <span class="bold"> it reminded me about the importance of research method accessibility in user research</span></span>: just because I’m comfortable with Microsoft Excel/Google Sheets doesn’t mean that my research participants are too.)
+			</p>
+			<p>
+				I did a few of these to establish patterns. I’ve included two here:
+			</p>
+			<img src="img/portfolio/MJS_CardSort1.png" class="s-img" alt="My first card sort, to help build information architecture conventions for my website.">
+			<img src="img/portfolio/MJS_CardSort2.png" class="s-img" alt="My second card sort.">
+			<p>
+				The findings were good: portfolio pieces, contact information, bio, résumé, social media links.
+			</p>
+			<p>
+				The findings synced-up with my own sense of what the website’s structure should be, too (this doesn’t always happen as a designer; but it’s always nice when it does).
+			</p>
+			<p>
+				I moved on from card sorts to the sitemap.
+			</p>
+			<h4>3.3: The Simple Sitemap</h4>
+			<p>
+				From the card sort, I decided on three nav items: Portfolio, About, and Contact.
+			</p>
+			<p>
+				The order of the nav items fit with what I imagined the user flow would be: look at my works, find out more about me - and look at my résumé - and then contact me.
+			</p>
+			<img src="img/portfolio/MJS_SiteMap.png" alt="My website’s sitemap, based on my research, and card sorts.">
+			<h4>3.4: Development: HTML, CSS and JavaScript (Oh My!)</h4>
+			<p>
+				Before I would create a wireframe, <span class="bold">I needed to think about the development of the website itself</span>.
+			</p>
+			<p>
+				I’d used WordPress and Squarespace to build websites in the past. I liked these options because they were easy and allowed a reasonable amount of freedom. There were also associated tools to track time-on-site, bounce-rate, etc. (always useful metrics).
+			</p>
+			<p>
+				For mjs.design however, I decided to complete the whole UX Design, graphic design and development process myself. This meant plans, user tests, graphics and would all be built up by yours truly.
+			</p>
+			<p>
+				It was here that I doffed (doffed means "removed", right?) my designer cap, took it down to my tailor and had him stitch it together with my developer cap, creating a hybrid designer-developer mega-hybrid cap that I would wear for the remainder of my process. It fit me well; like a... well-fitted hat.
+			</p>
+			<p>
+				As a caveat: UX isn’t really about an ability to code. That being said,I do consider my skills with HTML, CSS (and Sass), JavaScript (and jQuery) to be awesome tools in my toolkit as a UX Designer. I see it in a similar way to how I see graphic design skills as they relate to UX; I don’t strictly <span class="italic">need</span> to know how to use Adobe Photoshop, Illustrator, InDesign, After Effects, etc. to be able to be a UX Designer or Researcher; but I’m happy that I do. They help me a lot. <span class="bold">I’m able to design, style, code and test my UX designs as a kind of one-stop-shop</span>.
+			</p>
+			<p class=blockquote>For mjs.design however, I decided to complete the whole UX Design, graphic design and development process myself.</p>
+			<p>
+				I’m not an “all star” coder - by any means - but I know enough to both a) do some of the work myself; and b) converse intelligently with developers about building interactions and features that I’ve conceptualized for them. <span class="bold">I also know a bit better where my limits are (re: budget, time-frame, etc.) in terms of what’s possible and what isn’t for a project.</span>
+			</p>
+			<p>
+				Anyway, here’s a (simplified) account of how I began: I used a Ruby program that I’d built to generate my project’s file structure, as well as base HTML, Sass, CSS, JavaScript etc. files. I included a Grunt file (Grunt is a JavaScript “task runner”, which means that it can automate a lot of repetitive development tasks) with a Sass “watch” task included, allowing me to develop my Sass files and then have them auto-compiled into CSS (readable by browsers), as well as a task which automatically refreshed my browser after changes were made (which would be invaluable for testing later on).
+			</p>
+			<p>
+				With these files ready to be developed later, I was then able to move on to sketches and wireframes. <span class="bold">Because I would be developing the site myself I could do these without consideration for how they would need to be shoehorned</span> into a pre-built theme (like WordPress, or Squarespace).
+			</p>
+			<h3>4.0: Skeleton: Sketches, Wireframes, and Content Strategy</h3>
+			<h4>4.1: Sketches</h4>
+			<p>
+				Before I get started on wireframes, I like to do a bunch iterative designing using either paper or a whiteboard.
+			</p>
+			<p>
+				I like to think that I’m pretty fast with Photoshop, Illustrator, AxureRP, etc.; but in the time that it takes me to produce designs - even lo-fi designs - in any of them, I could have churned out 5+ designs on paper or a whiteboard. I've included some quick sketches that I did for mjs.design here:
+			</p>
+			<img src="img/portfolio/MJS_SketchWire.png" class="s-img" alt="Some sketched wireframes at desktop and tablet screen sizes; as well as the navigation for mobile screen sizes.">
+			<p>
+				I'd decided to omit a home page altogether, and have the landing page simply be my "Portfolio" page. I reasoned that <span class="bold">few users would come upon my website accidently</span>. Most likely, they either: clicked a link from my social media profiles, from an email I'd sent (re: my interest in a UX Designer job) or after a web search for "UX Designer Portfolio", "UX Designer Toronto" (I'd get into AdWords later on), etc.
+			</p>
+			<p class="blockquote">
+				Before I get started on wireframes, I like to do a bunch iterative designing using either paper or a whiteboard.
+			</p>
+			<p>
+				Whatever their prompt was, it was likely that they already knew why they were there, or what they were getting into. I didn't need a splash page with a value proposition or funnel copy or whatever: the users would want to see my work, or at least have quick ways to find out more about me, contact me, etc.
+			</p>
+			<p>
+				The designs were simple:
+				<span class="bold">for the large (commonly desktop) screen sizes</span>, I opted for a two column layout with the nav (and block nav items) fixed in the left column. The portfolio pieces could be added in the right column indefinitely (although, so as not to overwhelm users, I was unlikely to ever showcase more than 4 or 5 portfolio pieces). Social media links (to Twitter, etc.) would spread across the bottom of the right column.
+			</p>
+			<p>
+				<span class="bold">For the medium (commonly tablet, or laptop) screen sizes</span>, I opted for a single column, but with the nav spread inline across the top to take advantage of the increased width.
+			</p>
+			<p>
+				<span class="bold">For the small / mobile screen sizes</span>, I opted to tweak the medium / tablet layout; but with the nav items (and social media items) as individual blocks. I could've used a "hamburger" nav menu here, but for just three nav items I felt that it would over-complicate the nav rather than improve the experience for my users.
+			</p>
+			<p>
+				The <span class="bold">responsiveness pattern</span> that I would use was a layout shift (and you can read more about multi-device layout patterns on Luke Wroblewski's page <a href="http://www.lukew.com/ff/entry.asp?1514">here</a>.)
+			</p>
+			<p>
+				I used these to develop a paper prototype (a user-testable paper “website”) and tested it with friends.
+			</p>
+			<p>
+				I gave them very simple user flows and observed their processes:
+			</p>
+			<ul>
+				<li>look at the third portfolio item</li>
+				<li>return to portfolio page; look at the first portfolio item</li>
+				<li>contact me (from first portfolio item page) </li>
+			</ul>
+			<p>
+				My friends quickly completed these tests; and seemed angry that I’d gathered them together for such a "simple task".
+			</p>
+			<p>
+				"simple task" sounded good to me. I think that my user persona, Gavin, would've approved, too. I moved on then to the wireframes.
+			</p>
+			<h4>4.2: Wireframes</h4>
+			<p>
+				I got into AxureRP and produced mobile and desktop wireframes.
+			</p>
+			<p>
+				<span class="bold">I love AxureRP.</span> It can produce a lot of important UX deliverables without a lot of effort, like: user flows, sitemaps, wireframes (low-fidelity and high-fidelity) with notes/annotations. You can even design interactions (which, because my website wouldn’t have complex interactions, I didn’t do here).
+			</p>
+			<img src="img/portfolio/MJS_LoFiWireWithAnnotations.png" alt="An annotated low fidelity wireframe for my website’s landing page.">
+			<p>
+				I’d set out to make it simple; and thus far, I had succeeded at that.
+			</p>
+			<h4>4.3: Content Strategy</h4>
+			<p>
+				The information that I gathered during my Content Inventory proved invaluable here. I had enough material from UX work that I’d done before that I could built out a strategy for my content - and a copy deck for each page - around it. What I didn’t have, I recreated from notes, emails, etc.
+			</p>
+			<p>
+				<span class="bold">I wanted each piece of content to be a showcase of my abilities</span>; and I wanted the copy to flesh out what was difficult to convey with media content.
+			</p>
+			<p>
+				I wanted the website’s copy to exude friendliness and youthful professionalism. I am, after all, a friendly young professional.
+			</p>
+			<p>
+				This is anecdotal - and subjective - but I’ve observed that (successful) modern web copy has a kind of relaxed, humourous flair. As a (small) example, here’s Chrome’s error message on crash:
+			</p>
+			<img src="img/portfolio/MJS_ChromeErrorMessage.png" class="xs-img" alt="Google Chrome’s crash error message.">
+			<p>
+				"Whoa! Google Chrome has crashed. Restart now?"
+			</p>
+			<p>
+				This is good copy: there’s a kind of friendly relaxedness - suggested by the colloquial <span class="italic">"Whoa!"</span> - that kind of blunts my anger (which is important, because my browser just crashed and I was in the middle of a savage online argument about which bear is best).
+			</p>
+			<p>
+				It then tells me what happened. Assertive. It crashed. <span class="bold">Chrome’s average user is unlikely to need more information than that (i.e. “ERROR CODE 0.X3791effff”)</span>. It then asks me if I want to restart. No qualification. No jargon. A question that’s easy for me to answer.
+			</p>
+			<p>
+				I wanted my website to capture that same mood. <span class="bold">Friendly. Professional. Young. Assured</span>; but a with a bit of self-deprecation thrown in.
+			</p>
+			<p>
+				I proceeded through my copy deck with these words in mind.
+			</p>
+			<p>
+				Length of content was important; a go-to UX article re: content (<a href="https://www.nngroup.com/articles/how-users-read-on-the-web/">How Users Read on the Web</a>, by Nielsen Norman Group)
+			</p>
+			<p>
+				(P.S. I would consider micro-copy (button copy, etc.) when I designed the UI elements later on.)
+			</p>
+			<h3>5.0: Surface: Visual Designs</h3>
+			<p>
+				The project, from a UX perspective, was near-complete. I was now able to move onto visual design.
+			</p>
+			<h4>5.1: Designs</h4>
+			<p>
+				If someone asked me what the best tool in my UX Designer toolkit was, I would tell them:
+			</p>
+			<p>
+				“A dry-erase marker.”
+			</p>
+			<p>
+				Then, I’d coolly throw my coat over my shoulder and stride forth into a night-time mist, a noir jazz tune playing somewhere unseen, confident, assured that I had spoken true.
+			</p>
+			<p>
+				But seriously: I like to do as much work as I can with paper and whiteboards. <span class="bold">A tenet of Lean UX is "fail fast, fail often".</span> Test. Do a <span class="italic">ton</span> of iterations of your designs. Test again. You improve with each iteration; and almost never is your first idea your best idea. Try, try again.
+			</p>
+			<p>
+				I based my visual design on my belief in this part of UX; the iterations phase, where the next great idea always lives. I love that.
+			</p>
+			<p>
+				I decided, then, to build a rough, “sketched” aesthetic; a design that appeared to be a sketched prototype of a website, rather than a slick, done-up, finished website.
+			</p>
+			<p class="blockquote">
+				If someone asked me what the best tool in my UX Designer toolkit was, I would tell them: “A dry-erase marker.”
+			</p>
+			<p>
+				To create the effect, I would use the Permanent Marker font <span class="bold">and make use of CSS3’s new(ish) border-image property, which allows browsers to use a supplied image as a border</span> (working as users would expect) for portfolio item borders, current and link hover states (made to appear as though they were circled with a marker).
+				<p>
+					I created a simple border image in Illustrator which I then exported it as a .png file.
+				</p>
+				<p>
+					I fired off image traces in Illustrator of some of my sketched work, making it appear - with moderate success - as a part of a "page", rather than as a discrete “img”. I gave marker outlines to brand images - and washed them all out a bit - for the portfolio to suggest that they’d been sketched on to paper and then coloured in.
+				</p>
+				<p>
+					The colours I used were a grey (hex: #464646), a red (hex: #fd6c73), and a blue (hex: #2E3E9A) all marker-ish looking. I didn’t want to use too many colours, as sketched work is not conventionally colourful.
+				</p>
+				<img src="img/portfolio/MJS_MarkerColoursUsed.png" alt="The 3 hex values (and their associated colours) that served as the basis for my visual designs' palette." class="s-img">
+				<p>
+					For the background, I added a repeated pattern to give it the look of grid paper. I added a few pen and marker flourishes - small images that I’d sketched in Illustrator - and then gave them absolute positioning at screen sizes over 1168px (I reasoned that tablet and mobile views had less screen real estate; and therefore were more at risk of unnecessary elements causing a “cluttered” look).
+				</p>
+				<p>
+					I also <span class="bold">added a tiny piece of JavaScript to generate the current date as the date of "mjs.design Draft #2"</span> (I added the dash programmatically so that, if a user’s JavaScript was disabled, it will degrade to simply "mjs.design Draft #2")
+				</p>
+				<p>
+					Each was a small addition: little style choices that aggregated to a cohesive visual design. It was appropriate, I thought; because a lot of good, little design decisions assembled beautifully is what UX Design is all about.
+				</p>
+				<p>
+					I produced some a-bit-higher-fi wireframes of my concept. I’ve included one of them here:
+				</p>
+				<img src="img/portfolio/MJS_HiFiWire.png" alt="High fidelity wireframe of my website’s landing page.">
+				<h4>5.2: Sharing Designs</h4>
+				<p>
+					I showed the designs to four of the participants who I’d connected with before over Skype. I was careful to impress on them the importance of an honest perspective. I’d fostered - to that point - honest communication with them and was hopeful that it would continue.
+				</p>
+				<p>
+					<span class="bold">One commented that the idea behind the designs seemed "too showy"</span>. I understood their perspective: an important aspect of UX is the delineation between what’s useful, or innovative, and what’s simply novel-for-the-sake-of. Too much of the latter can distract users from your website’s important - user and stakeholder - objectives.
+				</p>
+				<p class="blockquote">Lots of good, little design decisions assembled beautifully is what UX Design is all about.</p>
+				<p>
+					The other three were more positive. One said that the sketched design looked good, and that it reinforced the theme of the website.
+				</p>
+				<p>
+					To get a better read of the effectiveness of the visual design, I then conducted a small A/B Test over Skype with the same group of four to compare two mobile wireframes, one with the sketched design and one without.
+				</p>
+				<h4>5.3: A/B Test</h4>
+				<p>
+					A/B Tests let participants choose between options; and can be used to test most aspects of UX. In this case, <span class="bold">I wanted to get a feel for user reactions to two visual designs</span> (but it can be as specific as reactions between two shades of a button’s copy colour).
+				</p>
+				<p>
+					I’ve included the two images - of hi-fi mobile wireframes - that I used for the A/B Test here:
+				</p>
+				<img src="img/portfolio/MJS_SurfaceABTest.png" class="s-img" alt="Two high fidelity wireframe for my website at small or mobile screen sizes for an A/B Test of some of my designs.">
+				<p>
+					The user who had described the visual design as “too showy” preferred Option A, while the others - who had had positive reactions to the sketched aesthetic - preferred Option B.
+				</p>
+				<p>
+					This was a useful result to me. With 75% I decided to move forward. <span class="bold">I thanked each of the participants</span> and paid them in gift cards. It was time for me to write code.
+				</p>
+				<h3>6.0: Development: Code</h3>
+				<p>
+					Because I’d set-up my development environment and file structure in Step 3.4, I was able to get into the HTML and CSS with the visual design still fresh.
+				</p>
+				<p>
+					I fired up Brackets, which is a code editor that I like. My friends who develop seem to prefer Sublime Text 3, Vim, or Emacs; but Brackets is what I’m comfortable with. As a side-note: <span class="bold">I did write some of the code in Vim</span> (which I’m trying to learn to use as it seems to have the potential to speed-up my development workflow by a lot). Here’s an image Brackets (with some of mjs.design’s not-yet-completed code):
+				</p>
+				<img src="img/portfolio/MJS_Brackets.png" alt="HTML I’d written for mjs.design in the “Brackets” code editor.">
+				<p>
+					I built CSS rules based on the visual designs; and where elements were needed - images, etc. - I built .pngs and .svgs in Illustrator (working to keep file sizes small to ease load times). I wrote these rules in .scss - a file extension for the Sass programming language - which compiles simply to .css.
+				</p>
+				<p>
+					I built the form for Contact with a combination of HTML (a form), JavaScript (a validation script I integrated), and PHP (more validation, and transmission of the form's POST data to my email). It would be a one button form; just a simple "Submit" (I researched "Cancel" buttons
+				</p>
+				<p>
+					I tried to <span class="bold">keep the code as semantic - and as DRY </span> ("Don't Repeat Yourself") - as I could. I'm sure that I made missteps; but I'll continue to improve the code over time, regardless. The road to improvement is incremental change.
+				</p>
+				<p>
+					I kept the website <span class="bold">in DropBox - to enable me to access it wherever I was - and pushed it to GitHub</span> (though I didn't push as often as I should've) for backups and version control.
+				</p>
+				<h3>6.1: On Sass</h3>
+				<p>
+					I like Sass for a lot of reasons; but one of the main reasons, UX-wise, <span class="bold">is the ability to use variables (which aren’t supported in native CSS)</span>. So: instead of “color: FF0000” you could set a variable called “$brand_red” equal to FF0000 and then use that instead.
+				</p>
+				<p>
+					“Variables? Who cares?” you say. Or don’t. I don’t want to put words in your mouth.
+				</p>
+				<p>
+					But picture this, my friend: you’re a UX Designer with development flair, working on a large-scale web project.
+				</p>
+				<p>
+					You’ve developed <span class="italic">hundreds</span> of CSS stylesheets. You’ve got all of the right fonts. All of the right spacing. All of the right colours. You’re feeling good. Great, even.
+				</p>
+				<p>
+					But: one of the project’s primary stakeholders shows up at your office with bad news: the board <span class="italic">hates</span> the fonts, the spacing, and the colours; and they’ve threatened to pull funding for the project if they aren’t fixed. Uh oh!
+				</p>
+				<p>
+					No uh oh. Uh awe-some. Why? Because you were clever, and used Sass instead of native CSS. Instead of doing a script, or CTRL-Fing through each stylesheet, to fix each bad value (and hopefully not missing even a single one / not breaking all of your work), you just change the values of your variables and boom: wherever those variables were used - for fonts, spacing, colours; whatever - the values will update accordingly. <span class="bold">A process that could’ve been 2 - 3 hours is brought down to 10 or 15 minutes</span> (to make sure that everything still works). And you can imagine what an option like this would do for A/B tests (hot tip: it makes it a lot faster).
+				</p>
+				<p>
+					With a bit of simple set-up, Sass can compile into CSS automatically too. <span class="bold">I use a task-runner called Grunt</span> for this, but there are other solutions too. You can see it here, running in the command line, firing on its own whenever I edit any of my Sass files (which I do a lot, especially when I’m doing any kind of testing).
+				</p>
+				<img src="img/portfolio/MJS_GruntCMD.png" alt="Grunt, a JavaScript task runner, in action.">
+				<h4>6.2: Responsiveness</h4>
+				<p>
+					I used media queries (in Sass functions) to create reasonable breakpoints for large, medium and small screen / device sizes.
+				</p>
+				<p>
+					<span class="bold">Because different browsers / devices work differently</span>, I did extensive tests of my designs to ensure that they were as close to universally-responsive was reasonable. <span class="bold">I tested in Chrome, Safari, Firefox, Opera, Edge and Internet Explorer, across different devices</span>.
+				</p>
+				<p>
+					Based on these tests, I determined that the experience was consistent across all browsers... except for Internet Explorer, which displayed the content at a weird "zoom". Users could zoom out (and in) and the breakpoints were functional (i.e. at reduced zoom, the browser displayed the correct "large" layout, etc.) but even after trying deprecated CSS rules (like "zoom" itself), I wasn't able to fix it. I supposed that I could've done so with JavaScript, but it seemed like not a good use of time: <span class="bold">it was unlikely to me that employers anywhere that I would be hired would be using Internet Explorer to browse potential candidates' portfolios</span>; and even if they were, the experience wasn't bad anyway; the site could still be used and interacted with at its default zoom level.
+				</p>
+				<p class="blockquote">
+					I used media queries to create breakpoints for large, medium and small screen / device sizes.
+				</p>
+				<p>
+					Anyway, I won’t labour over the development anymore - after all, mjs.design isn’t a development portfolio - but I will say that I enjoyed this aspect of the process a ton.
+				</p>
+				<p>
+					While this website is, as I said at this project’s outset, mostly greenfield, I very much view it as a “living” project: <span class="bold">it will be added to, improved, etc. over time</span> (and in response to user feedback).
+				</p>
+				<p>
+					(P.S. I would get into FTP, AdWords etc. afterwards; but I've decided to omit my experiences with those things for now.)
+				</p>
+				<h3>7.0: Outcomes</h3>
+				<p>
+					You yourself might represent mjs.design's positive outcome.
+				</p>
+				<h3>8.0: What I Learned</h3>
+				<p>
+					I learned how difficult it can be to bring certain designs to life from a developer's perspective. The sketched designs, which I feel are compelling and fit with my theme, were - in some cases - difficult to write, particularly when it came to "border-image" property, which - despite better and better web standards - most browsers still treat differently. What worked in Chrome and Safari wouldn't work in Firefox; and what worked in those wouldn't work in Edge or Internet Explorer. It was a hard dance, at times.
+				</p>
+				<p>
+					I worry that I might have gone a bit overboard with the theme altogether to where it distracts from the content. Feedback over time will help me decide that; and inform future development.
+				</p>
+				<p>
+					I have concerns, as well, about the <span class="bold">length of the portfolio pieces</span>. Based on research (by Buffer, a social media management firm), <a href="https://blog.bufferapp.com/the-ideal-length-of-everything-online-according-to-science">the ideal length of blog posts, for engagement, is 1600 words.</a>While my portfolio pieces aren't blog posts, the fact that 1600 is a metric with long-form web content is still useful; and my portfolio pieces are... quite substantially longer.
+				</p>
+				<p>
+					But: I'll test - and get feedback from recruiters, employers etc., where possible - and change-up if the lengths are detrimental to conversions (i.e. contacts with employers).
+				</p>
+				<p>
+					All-in-all I enjoyed the challenge of following the entire concept / design / develop / test process myself. It was nice to have control over all of the project's variables and be able to make my own changes in my own time.
+				</p>
+				<p>
+					However: having that control gave me a renewed appreciation for working on teams. There really isn't a substitute for <span class="bold">sharing the weight, and even just the ability to bounce ideas off of colleagues when you're feeling stuck</span>. I didn't have that at all here; and while it's nice to call all of the shots, it's better, I think, to have support and cooperation from other skilled people.
+				</p>
+				<h3 class="internal-page-links">Next up: <a href="visocast.html">VisoCast ></a></h3>
+				<h3 class="internal-page-links">... or perhaps you've already decided to send me an<a href="mailto:mjs@mjs.design">email</a>?</h3>
+		</div>
+		<footer class="grid__col--9 panel--centered" role="contentinfo">
+			<div id="social-media">
+				<p>Follow me everywhere:</p>
+				<ul>
+					<li>
+						<a href="https://github.com/polymatt">
+							<p>GitHub</p>
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/polymatt">
+							<p>Twitter</p>
+						</a>
+					</li>
+					<li>
+						<a href="https://ca.linkedin.com/in/matthew-smith-833115b6">
+							<p>LinkedIn</p>
+						</a>
+					</li>
+					<li>
+						<a href="https://dribbble.com/polymatt">
+							<p>Dribbble</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<p>Design and Development by Matthew J. Smith &copy; 2016</p>
+			<p>Written in <span class="italic">Vim</span> and <span class="italic">Brackets</span></p>
+	</div>
+	</footer>
+	</div>
+	<script src="http://localhost:35729/livereload.js"></script>
+	<script src="_/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Dear Smart-Human-Who-Looks-at-Website-Source-Code: you should look at this project's code on GitHub instead (https://github.com/polymatt/mjs.design). -->
+
+<head>
+	<title>Matthew J. Smith, UX Designer | FVC</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="noindex">
+	<link rel="stylesheet" href="_/css/style.css">
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+	<div class="grid">
+		<header class="grid__col--3 header panel--centered" role="banner">
+			<a class="site-logo" href="index.html">
+				<h1 class="headline-primary--grouped">Matthew J. Smith</h1>
+				<h1 class="headline-primary--grouped"><span class="red">UX Designer</span></h1>
+				<h1 class="headline-primary">Toronto</h1>
+			</a>
+			<nav class="navbar" role="navigation">
+				<ul class="nav">
+					<li class="nav__item"><a href="index.html">PORTFOLIO</a></li>
+					<li class="nav__item"><a href="about.html">ABOUT</a></li>
+					<li class="nav__item"><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</nav>
+		</header>
+		<p class="fake-draft-text is-hidden-mobile" data-tip="A functionless - but fun, perhaps - fake draft text.">mjs.design draft &#35;2<span id="date"></span></p>
+		<div id="portfolio-expanded" class="grid__col--9 panel--centered">
+			<img class="portfolio-img grid__col--4 header-img" src="img/portfolio/FVC_Logo.png" alt="FVC's logo">
+			<h1>FVC</h1>
+			<h3>0.0: Project Overview</h3>
+			<h4>Duration: <span class="font-primary">2 years (development was concurrent with different job duties)</span></h4>
+			<h4>Tools: <span class="font-primary">dry-erase marker, paper, whiteboard, Adobe Photoshop, Adobe Illustrator, MySQL</span></h4>
+			<h4>Deliverables: <span class="font-primary">research, user tests, wireframes, hi-fi mock-ups</span></h4>
+			<h4>Team Size: <span class="font-primary">6</span></h4>
+			<h4>My Own Role: <span class="font-primary">UX Designer, Project Manager</span></h4>
+			<h4>Time to Read: <span class="font-primary">~25 minutes</span></h4>
+			<br />
+			<h3>0.1: Introduction</h3>
+			<p>
+				I was Project Manager on the development of an enterprise software called “Metrics” at a big Toronto-based NGO called FVC. Metrics was an enterprise software - that is, it was built for FVC’s own use - and in addition to the role of Project Manager, I also handled the UX Design and the lion’s share of the development.
+			</p>
+			<p>
+				(P.S. due to the sensitive nature of what FVC does, parts of this project are confidential.)
+			</p>
+			<p>
+				<h3>0.2: The Question</h3>
+				<p>
+					FVC does social services, and collects a ton of data: demographics, service access, etc.
+				</p>
+				<p>
+					Good data is important to every business; but for NGOs, it’s critical. <span class="bold">KPIs for social services NGOs can be ambiguous</span> - there’s no, e.g., "total widgets sold" - it’s difficult to capture a person (or demographic’s) “improvement” based on your initiatives, your programs, etc.
+				</p>
+				<p>
+					For example: if you move 100 <span class="bold">service users (hereafter: SUs)</span> from homelessness to homes, have you improved their lives?
+				</p>
+				<p>
+					The obvious answer is yes, of course you have; but as always, the devil is in the details: are there skills-appropriate jobs close to these new homes? Is the rent affordable, therefore? Does the area feature inexpensive services (e.g. food, medical care)?
+				</p>
+				<img src="img/portfolio/FVC_HomelessSign.jpg" class="s-img" alt="A homeless person's sign, with a request for help.">
+				<p>
+					If the answer to these questions is "no", and just 21 of those 100 service users get to maintain their homes long-term, was this initiative a helpful expression of your NGO’s resources?
+				</p>
+				<p>
+					If, then, the questions become: what made those 21 successful, or those 79 unsuccessful, the answers on what helpfulness looks like (re: your NGO's initiatives) start to look a lot more subjective; and because resources are more limited for NGOs, decisions on which initiatives to do are very much "measure twice - or thrice, or quice (is quice is a word?) - cut once".
+				</p>
+				<p>
+					It’s difficult: how do you "measure" when the data is so subjective? How do you ensure that your NGO’s initiatives are helpful? Smart?
+				</p>
+				<p>
+					That was the question that I was brought on to answer.
+				</p>
+				<h3>0.3: The Answer</h3>
+				<p>
+					FVC needed data: data collection, data aggregation, data reports.
+				</p>
+				<p>
+					FVC has some of the best brains in the NGO space: educated pros who direct FVC’s initiatives based on the best data on-hand.
+				</p>
+				<p>
+					But: where does their data come from?
+				</p>
+				<h4>0.3.1: The Case Workers</h4>
+				<img src="img/portfolio/FVC_CaseWorkers.jpg" class="s-img" alt="Case Workers on the job.">
+				<p>
+					<span class="bold">FVC Case Workers (hereafter: CWs)</span> are the "boots on the ground" staff who interact with FVC’s SUs. Their role is to support these SUs’ needs as representatives of FVC’s initiatives; and also to collect data on these initiatives: effectiveness, demographics of SUs, etc. These CWs supply most of the data that FVC managers and directors used to make decisions re: FVC’s resources.
+				</p>
+				<p class="blockquote">
+					It’s difficult: how do you “measure” when data is subjective? How do you ensure that your organization's initiatives are helpful?
+				</p>
+				<p>
+					For an example: if data indicated a gap in FVC’s service of SUs who were blind, management could develop plans to train CWs, aggregate resources for the blind (e.g. transcribe schedule of a local drop-in into braille, etc.), augment office spaces with assistive techs., etc., to the improvement of FVC as an organization.
+				</p>
+				<p>
+					So: the CWs collect the data, and the managers use the data...
+				</p>
+				<p>
+					... but there were breakdowns at both ends: <span class="bold">the in-use software was too labourious</span> for the time-poor CWs’ workflows; and too complicated for the managers to get the data that mattered most to theirs.
+				</p>
+				<img src="img/portfolio/FVC_VaderFrustrated.png" class="s-img" alt="A cartoon I made of a frustrated Darth Vader reacts to a complicated web form.">
+				<p>
+					FVC needed better data collection/extraction/analysis software.
+				</p>
+				<p>
+					And I would create it for them. Or I wouldn’t, and be let go. To find out which, read on.
+				</p>
+				<h3>1.0: Strategy: What Users Wanted</h3>
+				<p>
+					To create a better data system for these users, <span class="bold">I had to understand where the breakdowns were</span>with their current process.
+				</p>
+				<p>
+					I met with the project stakeholders (two FVC managers and an FVC director) to create a plan.
+				</p>
+				<p>
+					We decided to start with the CWs - the data inputs - and then move on to the managers; and to use a method borrowed from Contextual Design called <span class="italic">contextual inquiry</span>.
+				</p>
+				<h4>1.1: Contextual Inquiry: At The CW Office</h4>
+				<p>
+					Because I would have (time-limited) access to FVC CWs and managers for the duration of the project, I decided to go to an office where the CWs used the current data system.
+				</p>
+				<p>
+					When I arrived at the office, a fire alarm had gone off - it hadn’t been a test; there was an honest-to-goodness fire on the floor above - and there was a loud fight between two SUs in the hall.
+				</p>
+				<p>
+					The CWs navigated these intense situations - and more - with impressive ease; but <span class="bold">had very little time at their desks, or their terminals</span>.
+				</p>
+				<p>
+					I've included here a sketch that I did of this CW office (for context):
+				</p>
+				<img src="img/portfolio/FVC_CWOffice.png" class="xs-img" alt="A sketch of the layout of the CW office.">
+				<p>
+					I could see the breakdown in data collection immediately: CWs were with SUs - as mediators, as supports, as knowledge bearers, etc. - at <span class="italic">not at their terminals</span> (at the service window, in the halls, on accompaniments with SUs, etc.) close to 80% of the time.
+				</p>
+				<p>
+					<span class="bold">The problem was that data was "produced" close to 80% of the time, too</span>: each CW / SU interaction that I observed contained information that would be worthwhile to record (the CWs maintained a paper record that was a legal requirement - with no option to digitize - but its format didn’t have a lot of statistical value.)
+				</p>
+				<p class="blockquote">
+					Because I would have access to FVC CWs and managers for the duration of the project, I decided to go to an office where the CWs used the current data system.
+				</p>
+				<p>
+					I asked one of the CWs - hereafter: CW1 - if I could shadow them for a shift to observe. I explained the role that I had - that I was to create an improved data collection method - and we scheduled a date.
+				</p>
+				<h4>1.1.1: Contextual Interview</h4>
+				<p>
+					I sat with CW1 at their terminal. I watched CW1 interact with an SU, and then asked:
+					<p>
+						<span class="bold">ME: </span>What kinds of data do you enter into the computer?
+					</p>
+					<p>
+						<span class="bold">CW1: </span>A lot of stuff. Like, if an SU got a job, I’d enter it into the computer.
+						<p>
+							<span class="bold">ME: </span>Right then?
+						</p>
+						<p>
+							<span class="bold">CW1: </span>No. I wait 'til the end of the shift a lot of the time. To even get into the database I need about 5 minutes; and at that point, there’s a different SU who needs help. I want to support the SUs; that’s what I’m trained to do. I don’t want to spend tons of time at the computer.
+						</p>
+						<p>
+							<span class="bold">ME: </span>How much time does it take, on average, to enter data?
+						</p>
+						<p>
+							<span class="bold">CW1: </span>OK, watch what I have to do.
+						</p>
+						<p>
+							<span class="bold">To do UX, you need to empathize with users: the tone - or even the words - users' use to describe their tasks <span class="italic">matters</span></span>; in this case, CW1 said "watch what I <span class="italic">have to do</span>, not "watch what I do", and I could hear the frustration in their voice.
+						</p>
+						<p>
+							I watched CW1 close Google Chrome - they’d looked-up a local food bank’s schedule, on behalf of an SU - and open Internet Explorer.
+						</p>
+						<p>
+							<span class="bold">CW1: </span>I hate Internet Explorer.
+						</p>
+						<p>
+							<span class="bold">ME: </span>Do you need to use it?
+						</p>
+						<p>
+							<span class="bold">CW1: </span>The database won’t work in other browsers. Even with Explorer, we had to install an old version.
+						</p>
+						<img src="img/portfolio/FVC_PostItArtifact.jpg" class="xs-img" alt="A scan of a post-it note artifact with instructions to use an old version of Internet Explorer to access the web app.">
+						<p>
+							I watched CW1 scan through bookmarks - local clinics, food banks, shelters, etc. - and then select one, which opened a page with login and password fields.
+						</p>
+						<p>
+							<span class="bold">CW1: </span>I can never remember the login information here.
+						</p>
+						<p>
+							<span class="bold">ME: </span>Aren’t you on a secure computer already?
+						</p>
+						<p>
+							<span class="bold">CW1: </span>Yes: no one except a CW can use these computers.
+						</p>
+						<p>
+							The page didn’t give clear error messages ("I think there needs to be a number in the password...") so I watched CW1 guess through different combinations before success.
+						</p>
+						<p>
+							<p>
+								<span class="bold">The "database", a web app, was anti-minimalist bedlam: links, buttons, etc. all over the place </span>without an obvious gate into the process. CW1 looked confused (I suggested the "Support" button: “it’s useless”) and then pointed to one of a bunch of post-it artifacts affixed to the terminal’s monitor which said, paraphrased: "to look up an SU, click on the third button on the main page, and then enter the first two letters of the SUs first two letters of their first name, and then the last two letters of their last name".
+							</p>
+							<p>
+								Um…
+							</p>
+							<p>
+								CW1 did that - which was time-intensive, itself - and had started to input their data - re: a service that an SU had accessed - when there was a loud argument in the hall. CW1 jumped in to action; and on return, found that the system had logged them out (both the local account, and the web app account).
+							</p>
+							<p>
+								<span class="bold">CW1: </span>I’ll need to do it all over again…
+							</p>
+							<p>
+								CW1 waited until the end of their shift to do so; and at that late time, had to be clued to remember what it was that had to be entered in the first place.
+							</p>
+							<p>
+								I interviewed different CWs, but the negative response to the data system was ubiquitous: <span class="bold">it was incompatible with their jobs because it was complicated and time-intensive</span>; and it felt to the CWs like it had to be “relearned” with each use.
+							</p>
+							<p>
+								I built a CW user persona before I met with the other users: the managers.
+							</p>
+							<img src="img/portfolio/FVC_Persona_CaseWorker.png" alt="A user persona for an FVC CW named Donna Chang, who doesn't want to have to learn new software systems.">
+							<h4>1.1.2: The Managers</h4>
+							<p>
+								I had less access to the managers - their jobs could be more mobile - but their problems with the data system were similar: that it was complicated, and time intensive; and, too, that <span class="bold">it didn’t output clear reports to extract the data that CWs had entered</span>.
+							</p>
+							<p>
+								For a facsimile, managers had to do manual addition, line-after-line (i.e. “SU1 was enrolled in employment prep… SU42 was enrolled in employment prep…”, etc.), which put a wrench in data analysis.
+							</p>
+							<p class="blockquote">
+								The managers' problems with the data system were similar: that it was complicated, and time intensive; and, too, that it didn’t output reports to extract the data that CWs had entered.
+							</p>
+							<p>
+								I built a persona for the managers before I returned to the project’s stakeholders to present a comparative analysis.
+							</p>
+							<img src="img/portfolio/FVC_Persona_Manager.png" alt="A user persona for an FVC manager named Leslie Cartier, who likes data, and research.">
+							<h4>1.2: Comparative Analysis</h4>
+							<p>
+								Based on what I had seen in the interviews, I developed a comparative analysis (in particular, on pain points) of the in-use data system.
+							</p>
+							<ul>
+								<li>system was difficult to access; use of IE8, no login error prevention, etc.</li>
+								<li>had unclear prompts for most common tasks; i.e. user wants to enter birthdate, but no obvious path to do it</li>
+								<li>data collection was time-intensive (could be up to 10 min. per instance)</li>
+								<li>half-entered data - due to CW response to SU mid-process, etc. - wouldn’t save (or, at random, would… but CWs couldn’t edit once saved)</li>
+								<li>required too much instruction; CWs could not use system without prompts (in the form of artifacts like post-its, or check-ins with other CWs, managers)</li>
+								<li>data extraction required manual tallies; no data outputs</li>
+							</ul>
+							<p>
+								All-in-all: ungood (does the word “ungood” sound unprofessional?) UX.
+							</p>
+							<h4>1.3: Brief</h4>
+							<p>
+								I prepared a UX brief based on the user research - CWs and managers - that I had done.
+							</p>
+							<p>
+								The CWs - the data input - needed a system that respected their jobs; the in-use systems were complicated, time-intensive and incompatible with the regular “interruptions” that occurred on-shift.
+							</p>
+							<p>
+								The managers - the data output - needed a system with data extraction, and analysis. It needed automated, obvious reports to help FVC plan for the future.
+							</p>
+							<p>
+								<span class="bold">The data system that I would create was to be the default in-house method</span> for its role; users would be required to use it as a part of their jobs.
+							</p>
+							<p>
+								I needed to ensure that the designs that I made were near-perfect; and that the project was as feature-rich as it needed to be.
+							</p>
+							<p>
+								No pressure.
+							</p>
+							<h3>2.0: Scope: The Features</h3>
+							<p>
+								I worked with the project’s stakeholders to outline the data system’s features. It was important here to delineate between “must haves” and “nice to haves”.
+							</p>
+							<p>
+								Because the system would capture statistics, the stakeholders decided on the name “Metrics” <span class="bold">(hereafter, I will refer to the data system as Metrics)</span>.
+							</p>
+							<h4>2.1: Storyboards</h4>
+							<p>
+								I developed a series of storyboards for Metrics based on hypothesized users’ interactions with it.
+							</p>
+							<p>
+								It’s helpful to picture - and sketch out - scenarios wherein your product is used. Where is the user? What is the user up to at the time? etc. are good questions that can help you to empathize with your users, and their contexts.
+							</p>
+							<p>
+								I’ve included one of these storyboards here:
+							</p>
+							<img src="img/portfolio/FVC_Storyboard1.png" class="s-img" alt="A storyboard of a CW entering data into Metrics.">
+							<h4>2.2: Features: Must Haves, Nice To Haves</h4>
+							<p>
+								Enterprise products can pose unique challenges: <span class="bold">in Metrics’ case, its prospective users had a kind of built-in wariness for data collection systems</span> based on past experiences. In other words, poor UX in past continuums of data collection had created a friction that Metrics’ designs would have to overcome to ensure smooth user adoption.
+							</p>
+							<p>
+								The stakeholders and I met with a group of CWs and managers to discuss desires for Metrics. There were a lot of suggestions; and these were the outcomes (based on time, budget, etc.):
+							</p>
+							<ul>
+								<li>assume “time poor” users: should take no more than 15 sec. - 45 sec. to enter unit of data (e.g. “John Q. Public got a job in customer service”)</li>
+								<li>accessible: must adhere to AODA for disabled users (blind users, colourblind users, etc.)</li>
+								<li>usable: user should recognize what options are, where to enter data, etc., without help</li>
+								<li>support: … but help should be available, if needed; and it should be robust</li>
+								<li>navigation: user should be able to move around system fast (i.e. transition between screens); navigation links should be clear, obvious</li>
+								<li>organization: fields should be categorized in ways that “make sense”</li>
+								<li>extraction: should output formatted reports (.pdf, .doc, .xls, etc.)</li>
+								<li>time-stamps: data entered should be time-stamped by the system; users shouldn't be required to fuss with date-pickers, etc.</li>
+								<li>modular: admins. should be able to edit - or add - fields, where appropriate</li>
+								<li>autosave: should prevent data loss if interrupted mid-process</li>
+								<li>secure: secure data, but passwordless data input</li>
+								<li>deployable: can be accessed on FVC LAN-connected terminals; no connection to Internet required; no browser required</li>
+								<li>meaningful: data input and output should be relevant to trends important to the FVC (i.e. “no. of SUs who attended FVC Drop-In services”, etc)</li>
+								<li>error prevention: should recognize duplicate data, prevent</li>
+							</ul>
+							<p>
+								Armed with the feature list, the stakeholders and I considered development: what medium could meet our requirements (and minimize development time, and cost)?
+							</p>
+							<h4>2.3: Development Considerations</h4>
+							<p>
+								I like to code.
+							</p>
+							<p>
+								It isn’t a requirement of (most) UX professionals, but I like it and like to contribute code to product development when I can</span>. <span class="bold">I have skill with JavaScript, Python, Ruby, Sass (which compiles into CSS), SQL, Visual Basic, etc. </span> Once you understand one object-oriented language, you can, at least, hazard through others (with your two best friends: Google, and the docs).
+							</p>
+							<p>
+								In Metrics’ case, it was obvious to me that a database was needed; and for the sort of data, <span class="bold">it had to be relational</span>. FVC used Windows; and so I recommended SQL - I would design the structure, create the queries, etc. - with Visual Basic for the front-end, which I would code.
+							</p>
+							<p>
+								With the stamp of approval from the stakeholders, I got into Metrics’ information architecture.
+							</p>
+							<h3>3.0: Structure: Feature Best Fit; User Journey Maps</h3>
+							<p>
+								I had the mission parameters. It was time to execute (he said, to the blare of a guitar riff).
+							</p>
+							<p class="blockquote">
+								in Metrics’ case, the prospective users had a kind of baked-in wariness for data collection systems based on past experiences.
+							</p>
+							<p>
+								I had to consider content.
+							</p>
+							<p>
+								I developed user journey maps to represent typical use cases to keep pain points, breakdowns, etc. in mind while I moved through the content. I’ve included one of them here:
+							</p>
+							<img src="img/portfolio/FVC_UserJourneyMap2.png" alt="A user journey following Donna Chang'a joys and pains moving through Metrics.">
+							<p>
+								I needed to counter the user’s negative associations with data collection with a more positive - and straight-forward - experience; but I did anticipate user resistance to Metrics, at first.
+							</p>
+							<h4>3.1: Content: Text Fields, Combos, Lists</h4>
+							<p>
+								The stakeholders had developed content fields - i.e. “SU obtained employment”, “SU referred to Drop-In Centre”, etc. - based on what was important for them to measure (with consideration to future requirements).
+							</p>
+							<p>
+								<span class="bold">We went through each field and assigned field types (e.g. “text field”, “radio”, “combo”, etc.). We wanted the fields as fast and as “fool-proof” as possible</span>; and to prevent user error - and unuseful data - through the minimization of “open” fields (e.g. text / memo fields).
+							</p>
+							<h4>3.2: Content Buckets (Card Sort(of))</h4>
+							<p>
+								I met with the stakeholders and a group of CWs to discuss the fields that had been developed in 3.1 and categorize them, e.g. if the user needed to record that John Q. Public became employed, where, in the context of the system, would that happen?
+							</p>
+							<p>
+								<span class="bold">I set it up like an open card sort</span>. We looked at the fields (which the CWs suggested useful additions to, i.e. add “hidden homeless” (e.g. couch-surfers) choice to “current housing situation” combo) and categorized them. I led the discussion - based on the scope - to ensure that the buckets were balanced.
+							</p>
+							<p>
+								After the discussion, we wrote out our categories: broad enough to be extendable if the need arose, but not so broad as to be ambiguous:
+							</p>
+							<img src="img/portfolio/FVC_ContentBucketsA.png" alt="A whiteboard with content categories written on it for Metrics' tabs.">
+							<p>
+								(P.S. the stakeholders didn’t sign-off on the names of these categories right then, which would impact the surface designs later on; but were good with the categorization.)
+							</p>
+							<h4>3.3: Forms</h4>
+							<p>
+								For Metrics’ interface, based on the content, I envisioned tabs - each a representation of a content bucket, and populated with associated fields - with options for SU search, help, etc., each with an on-hover tooltip. <span class="bold">I didn't want to overwhelm the user with options or menus</span>. Metrics was uncomplicated (the data goes, the data goes out) and I wanted its UX to be uncomplicated, too.
+							</p>
+							<p>
+								Each successful SU search would inform the user of the name associated with the tabs beneath (i.e. with John Q. Public selected, information relevant to his ID would be within Metrics’ ID tab, etc.)
+							</p>
+							<p>
+								I wanted users to be able to return to the dashboard from each screen, and decided to include a "Back" button with the logo (where users might expect to find it). In a similar sense, I decided to include a "Next Tab" or "Next Page" button at the bottom right; because while I envisioned most users would move from tab to tab based on need, I wanted users who thought more "in sequence" to be able to move through the tabs like a process (though the final tab's "Next Tab" button would return the user to the first tab, like a circle).
+							</p>
+							<p>
+								More or less, <span class="bold">I pictured Metrics as a "drop-in/drop-out" experience</span>; that is, no required fields. The CWs didn't have time to plod through mega-forms just to find that a single unselected radio had prevented their save. Metrics' fields were "one offs"; each categorized, but non-sequential (e.g. for an SU to have gained employment, it doesn't mean that there was engagement in employment services within the same period, etc.)
+							</p>
+							<p>
+								I reasoned that, in most use cases - post-adoption - users would want to search for an SU, and then enter data, and then save with no other prompts - or distractions - needed.
+							</p>
+							<p>
+								I did a mock-up for the stakeholders and users. Two CWs suggested that the search be both a search and a combo, to enable users to choose to enter an individual SU name or scroll through all SUs within the system. <span class="bold">I’ve included an image of the interface being drawn here:</span>
+								<img src="img/portfolio/FVC_Whiteboard.png" class="s-img" alt="Me sketching the Clients screen of Metrics' interface on a whiteboard.">
+								<img src="img/portfolio/FVC_InterfaceWhiteboard.png" class="s-img" alt="The completion of the whiteboard sketch.">
+								<p>
+									Tabs were an understood convention (for the most part) and the design met most of the criteria from the scope: users could navigate between the tabs with clicks, and because Metrics would be deployed as a desktop application (vs. a web application) there were no concerns re: bandwidth, load time, etc. for each "page".
+								</p>
+								<p class="blockquote">
+									For the interface, I envisioned tabs - each a representation of data categories, and populated with associated fields - with options for SU search, help, etc.
+								</p>
+								<p>
+									The user could enter the system, recognize the tab that best represented the data to be entered - and if not, there was “Help” (which I expand on in 3.4) - do so, and then save.
+								</p>
+								<p>
+									<span class="bold">I considered here that users might save the same form multiple times</span>, and in succession; that is, if an SU informed a CW that there had been an update to their full-time education status, and then, after, an update to their part-time education status, there might be two consecutive saves. For scenarios like these, I decided to include system feedback, in the form of a "saved at hh:mm:ss" message (on that tab, to suggest association), so that users could compare against the ubiquitous taskbar time and confirm that their most recent save was a success.
+								</p>
+								<p>
+									Based on user interest, <span class="bold">I would include an "Undo" button</span>, too - with some distance from the "Save" button - which would (after a confirmation modal) revert the active form to its initial state (within that same session; not initial like from the beginning of time).
+								</p>
+								<h4>3.4: The Help Button</h4>
+								<p>
+									The stakeholders and I wanted a "Help" button to be prominent; a fixture as the user moved through the different screens of Metrics' interface. I wanted to give the CWs the best experience that I could; and that meant an appreciation for their context.
+								</p>
+								<p>
+									FVC CWs don't keep 9 - 5 hours. SUs can be vulnerable; and their support needs don't end when the sun sets. There are CWs on-site most hours (even over night); and for them, <span class="bold">it was important that Metrics could be used even when I - or another trained FVC staff - wasn't available to instruct them.</span>
+								</p>
+								<p>
+									e.g., a CW wants to record an interaction with an SU, so the CW opens Metrics, selects Clients, and then... has no idea what to do. Confused, and frustrated, the CW closes Metrics and the data is unrecorded.
+								</p>
+								<p>
+									<span class="bold">The first line of defense vs. user confusion or error is a well-planned interface </span> / information architecture; but those aren't enough in each case. Tooltips, placeholders, etc. can help, too... but when all else fails, a "Help" - or "Support" - option, with walkthroughs, explanations, etc. can ensure that more users can accomplish their tasks.
+								</p>
+								<p>
+									The "Help" button that I would implement would be contextual based on a user's position in Metrics' flow when the button was clicked; e.g. when clicked in Reports, would reveal Reports screen help, etc., with an "Other Help Topics" to move the user to other help documentation. "Help" would reveal modals which would give users step-to-step instructions for each important system function (which, fortunate for me - and Metrics - was a small order; there weren't a lot of functions to explain).
+								</p>
+								<p>
+									I would user test the assumptions that I'd made for "Help" later on in the project; the most important aspect of "Help" for me was that it could <span class="bold">enable a user to obtain support with system functions</span> to ensure that they could conclude their flows.
+								</p>
+								<h4>3.5: Reports</h4>
+								<p>
+									How would Metrics represent its reports? Would reports be generated based on individual SUs - for CWs - or based on temporal (i.e. month-to-month) data?
+								</p>
+								<p>
+									The stakeholders decided to do both: CWs should have the option to generate reports based on SUs to facilitate case management; but reports - for managers, directors, board members, etc. - should be data - abstracted from SUs - based on user-provided date range.
+								</p>
+								<p>
+									I decided to compartmentalize those two flows: on Metrics’ launch, the user would be presented with a dashboard that allowed for selections between SUs, Reports, or Admin. (where content could be updated, or changed based on FVC’s needs). Functions to enable different users to access different content fast. I considered the development of different versions of Metrics - so CWs would be launched into the SUs screen without the dashboard - but decided not to: each FVC terminal saw use from CWs and managers alike, and so <span class="bold">it was important that the experience of Metrics was consistent, regardless of who was on which terminal</span>.
+								</p>
+								<p>
+									I would test these assumptions as I moved forward; but from then, I began to create artifacts based on those ideas.
+								</p>
+								<h4>3.6: Hierarchical Tasks Maps</h4>
+								<p>
+									To better envision the steps which users could take - through Metrics - to accomplish their tasks, I developed hierarchical tasks maps. I’ve included one here:
+								</p>
+								<p>
+									(P.S. "Login" refers to the user’s terminal, here.)
+								</p>
+								<img src="img/portfolio/FVC_UserTasksMap.png" alt="A user tasks map, depicting a CW's step-by-step through a task in Metrics.">
+								<p>
+									Based on the research (into needs, tasks, etc.) discussions with users, stakeholders, etc. I had a good idea for Metrics’ overall layout.
+								</p>
+								<p>
+									I obtained stakeholder approval for the information architecture designs and then ploughed ahead.
+								</p>
+								<h4>4.0: Skeleton: The Form Bone’s Connected To The… </h4>
+								<p>
+									I’d started to move the designs towards a coherent, user-minded plan.
+								</p>
+								<p>
+									Metrics would open on to a dashboard with three options for users: Clients (a.k.a. SUs), Reports and Administration.
+								</p>
+								<p>
+									I arranged them in order of most-used to least-used (as CWs would be the users in Metrics most often, in Clients). I imagined Administration as least-used because the stakeholders alone would have access, and wouldn’t update content (e.g. fields, tabs, etc.) often.
+								</p>
+								<p>
+									I imagined that CW users would have Metrics opened throughout their shifts and restore it from the Windows taskbar when there were 30 sec. of freedom to record data between external (i.e. outside of the system, and terminal) tasks with SUs, etc.
+								</p>
+								<h4>4.1: User Flows</h4>
+								<p>
+									I would start to wireframe (<span class=”italic”>wireframe (verb): to wireframe</span>) but decided to first develop (interface-based) user flows to present to the stakeholders; and <span class="bold">to use to focus on the user’s experience as I built out the user interface</span>. I’ve included one here (in the same continuum as the scenario as the user journey map from 3.0):
+								</p>
+								<img src="img/portfolio/FVC_UserFlows3.png" alt="One of Metrics' user flows.">
+								<h4>4.2: Wireframes: Sketch</h4>
+								<p>
+									I look at the wireframe process as where the UX rubber meets the UX road (... what?): a wireframe is - or, should be - <span class="bold">a culmination of your design efforts: the aggregation of concept, user research, feature decisions, etc. and should feel like the natural progression of them.</span>
+								</p>
+								<p>
+									I like to start the wireframe process with <span class="bold">an iterative draw-a-thon on paper or whiteboard</span> or both. These impermanent media enable me to fail again and again; but with each failure, improve to where I can conduct in-depth user tests of the best results. I’ve included two examples here:
+								</p>
+								<img src="img/portfolio/FVC_SketchWireMain3.png" class="xs-img" alt="A paper sketch of Metrics' main menu.">
+								<img src="img/portfolio/FVC_SketchWireClients4.png" class="s-img" alt="A paper sketch of Metrics' Clients screen.">
+								<p>
+									<p>
+										It represents an advancement of the 3.3 discussion. I decided to retain text (vs. icons) for buttons. Outside of space-limited contexts, <span class="bold">the best icon is often a label</span> (so "Home", spelled out, vs. an image of a house, etc.).
+									</p>
+									<p>
+										Visual metaphor is an aspect of UX that has evolved, for sure; but still doesn't have the consistence of text labels. As a designer, you could assume - based on convention - that the user will recognize an image of a disk on a button as "Save"... but what about "Export"? "Undo"? Sure, <span class="italic">you </span>have knowledge of those conventions, but do your users share that knowledge?
+										<p>
+											That said, icons are useful for constrained space, and have more universalism (or language agnosticisim) but Metrics didn't have a ton of functions, and therefore screen real-estate wasn't a concern for these designs. <span class="bold">For Metrics, I opted for icons in tandem with text labels</span>, which I would test with users for value.
+										</p>
+										<p>
+											I was fortunate to have had the access to Metrics’ users (CWs and managers) throughout the project. The designs had been, more-or-less, collaborative; and I followed the feature specifications and information architecture that we’d developed as a team and so I felt confident in them.
+										</p>
+										<h4>4.3: Wireframes: Lo-Fi</h4>
+										<p>
+											Based on the user tests, I used AxureRP to produce a lo-fi wireframe for each of Metrics’ screens. I’ve included the Clients screen, with its annotations, here:
+											<img src="img/portfolio/FVC_LoFiWire.png" alt="An annotated, low fidelity wireframe of Metrics' Clients screen.">
+											<p>
+												The stakeholders and I printed some of these pages and did a kind of informal paper prototype exercise with a group of CWs.
+											</p>
+											<p class="blockquote">
+												I imagined that CW users would have Metrics opened throughout their shifts and restore it from the Windows taskbar when there was quick freedom to record data.
+											</p>
+											<p>
+												These CWs appeared comfortable with the designs, thus far (including "Help"); but there was a user critique that stood out to me: <span class="bold">that the "Next Page" and "Previous Page" buttons - that I'd devised in 3.3 - were a distraction.</span> Users weren't sure if these buttons would cause the screen to change - i.e. from the Clients tabs page to a different page altogether - and wondered about the need for button navigation when the tabs were more direct.
+											</p>
+											<p>
+												When I'd considered the range of computer aptitude of Metrics' users, I'd thought to accommodate different use approaches (as well as disabled users, who might tab through the controls).
+											</p>
+											<p>
+												But: the critique was good. <span class="bold">Good designs are "learnable"; that is, if users can easily follow information scents to their goals without certain nav options, then you probably don't need them.</span>
+											</p>
+											<h4>4.4: AODA</h4>
+											<p>
+												As a UX Designer, you are your users’ best (and, at times, alas, sole) advocate. <span class="bold">Your designs should always be <span class="italic">as accessible as possible</span></span> to ensure the best - and most consistent - experience for each user.
+											</p>
+											<p>
+												Metrics was developed in, and for use in, Ontario, Canada. Ontario’s 2005 accessibility legislation is called the <a href="http://www.aoda.ca/the-act/">Accessibility for Ontarians with Disabilities Act</a> (or: AODA).
+											</p>
+											<p>
+												Ontario wants full compliance with AODA for 2025; and while that’s a while off, our products should be accessible regardless.
+											</p>
+											<p>
+												FVC is an inclusive organization; and as an FVC staff person, <span class="bold">I was well-acquainted with accessibility laws</span>, as well as <a href="https://www.w3.org/TR/WCAG20/">WCAG 2.0</a> - and was able to implement AODA specs. into the designs for Metrics.
+											</p>
+											<p>
+												AODA implementations included (but weren’t limited to):
+											</p>
+											<ul>
+												<li>screen-readability: I would ensure that Metrics could be navigated through with Narrator (Windows’ built-in screen-reader, FVC’s terminals could access), or other assistive tech., for users who are blind</li>
+												<li>contrast: I would ensure that type was always well-contrasted against backgrounds, for colourblind and users of limited vision</li>
+												<li>tab-friendliness: I would ensure that tab-stops were well-ordered, for users who navigate without a mouse</li>
+												<li>obviousness: clear labels, universal tooltips, and conventional icons (paired with text), for all users</li>
+											</ul>
+											<p class="blockquote">
+												Metrics was developed in, and for use in, Ontario, Canada. Ontario’s 2005 accessibility legislation is called the Accessibility for Ontarians with Disabilities Act (or: AODA).
+											</p>
+											<p>
+												None of these specs., or others, were hard to integrate into Metrics’ designs. <span class="bold">Accessibility is important for everyone, everywhere</span>; even if you wouldn’t give me a job on your project or team (but you 100% should, because I’m the coolest), <span class="bold">I would be glad to consult pro bono re: AODA compliance, from a digital products perspective.</span>
+											</p>
+											<h3>5.0: Surface</h3>
+											<p>
+												With the lo-fi designs granted stakeholder approval, I moved on to visual design.
+											</p>
+											<p>
+												There weren’t brand concerns; <span class="bold">FVC was an established brand</span>, with colours, type, etc. I would use FVC’s blue (HEX: #4D85C5) and adhere to their clean-but-still-creative aesthetics to build the visual designs for Metrics’ screens. I used Adobe Illustrator. For consistency, I’ve included the design that is a progression of the lo-fi Clients screen wireframe that I included in 4.3 here:
+											</p>
+											<img src="img/portfolio/FVC_HiFiWire.png" alt="A high fidelity wireframe of Metrics' Clients screen.">
+											<p>
+												For these, I decided to move the logo to the right side of the screen and reserve the top left for a button which would enable users to return to Metrics' main menu. I reasoned that Metrics users wouldn't need to be reminded about the organization which employed them (at least, not at the expense of control functionality). I would test these assumptions, re: aesthetics, later on.
+											</p>
+											<p>
+												<span class="bold">Really, showiness wasn’t Metrics' goal.</span> Metrics was a tool, a digital hammer; and in the go-go-go jobs of FVC CWs, one that would, maybe, be resented until the end of time. But: I felt that the final designs fulfilled the project’s scope; <span class="bold">and facilitated Metrics’ two must-dos</span>, which had been:
+											</p>
+											<p>
+												<span class="bold">to facilitate the CWs’ user experience:</span>from the terminal, open Metrics, select Clients from the dashboard, search SU, select the relevant tab, enter data, select save (for these designs, I added a "last saved" text beside the "Save" button, to assure the user that the data had saved for real).
+											</p>
+											<p>
+												<span class="bold">to facilitate the managers’ user experience:</span> from the terminal, open Metrics, select Reports (or Administration), enter date / date range to see data, export data to .pdf, .doc, or .xls.
+											</p>
+											<p>
+												The last piece of the Metrics design puzzle wasn’t, alas, a corner piece, but instead was: the final presentation.
+											</p>
+											<h4>5.1: Final Presentation</h4>
+											<p>
+												At the stakeholders’ request, I printed booklets that showcased the hi-fi design screens for each person at the presentation to peruse (and critique); and be trained on.
+											</p>
+											<p>
+												I won’t lie to you: I was nervous. Metrics was a large, important project, and it was important to the stakeholders - and to me - that it succeeded.
+											</p>
+											<p>
+												But: the response was positive from CWs and managers; and <span class="bold">several expressed their belief that Metrics would improve their workflows</span>; and that it “looked easy to use”.
+											</p>
+											<p>
+												Music to a UX Designer’s ears.
+											</p>
+											<h4>6.0: Development</h4>
+											<p>
+												Development is outside of the scope of the project; but I’ll admit that I enjoyed the process a lot. I like data (nerd alert); and database design - which, like UX Design, has a lot of considerations that you wouldn’t, maybe, expect - is fun for me.
+											</p>
+											<p>
+												I wrote Metrics’ front-end - that the users would interact with - in Visual Basic and styled its forms, etc. in Microsoft Access. I wrote a bunch of SQL to glue it together. I've included some Visual Basic here:
+											</p>
+											<img src="img/portfolio/FVC_VB.png" alt="Written Visual Basic code.">
+											<h3>7.0: Outcomes</h3>
+											<p>
+												With the design and development completed and Metrics deployed on the requisite FVC terminals, <span class="bold">I returned to “the field” to observe users’ interactions with Metrics.</span> Users had been trained (through management) based on instructions from the stakeholders and I.
+											</p>
+											<p>
+												I did a kind of reverse contextual interview (a contextual... outerview... ) at the CW office, and was fortunate because the first CW who I interacted with was a recent hire and had no knowledge that I’d made Metrics.
+											</p>
+											<p class="blockquote">
+												I won’t lie to you: I was nervous. Metrics was a large, important project, and it was important to the stakeholders - and to me - that it succeeded.
+											</p>
+											<p>
+												With UX Design, unobtrusiveness - selective unobtrusiveness, I mean - is a useful tool; in designs, and in person. If users are aware that you were responsible for the designs - or <span class="bold">if the designs seem to be “finished”, or “complete” - then there could be reluctance to criticize</span> (hence: lo-fi designs that precede hi-fi designs; or AxureRP’s “sketchiness” option, etc.).
+											</p>
+											<p>
+												I watched the CW (hereafter: CW2) interact with an SU and then open Metrics from the Windows taskbar (it had been open), enter the SUs name into the search, open the requisite tab, read the available fields, select an option from a combo, press “Save”, and minimize.
+											</p>
+											<p>
+												<span class="bold">ME: </span>What did you do there?
+											</p>
+											<p>
+												<span class="bold">CW2: </span>Put info. into the database.
+											</p>
+											<p>
+												<span class="bold">ME: </span>What was that program you used?
+											</p>
+											<p>
+												<span class="bold">CW2: </span>I don’t remember what it’s called. The database. We’re supposed to record info. into it. Stats.
+											</p>
+											<p>
+												<span class="bold">ME: </span>Is it hard to use?
+											</p>
+											<p>
+												<span class="bold">CW2: </span>No. At my last job, we had to use (name of a competitor’s product). It took forever. This one seems better.
+											</p>
+											<p>
+												<span class="bold">ME: </span>Faster? Easier to use?
+											</p>
+											<p>
+												<span class="bold">CW2: </span>Yeah. Just takes a second to do, usually.
+											</p>
+											<img src="img/portfolio/FVC_MetricsUse.png" class="s-img" alt="Metrics' main menu.">
+											<p>
+												Metrics had no internal predecessor to compare itself to, stats-wise; but stakeholders reported that data collection, analysis, and extraction were improved; and that Metrics had fulfilled its promises:
+											</p>
+											<p>
+												CWs reported that Metrics enabled them fit data collection into their jobs more-or-less without interruption.
+											</p>
+											<p>
+												Managers reported that their access to data - and therefore, their awareness of SU trends - had seen improvement, and that reports on data could be generated (and analyzed) with serious ease.
+											</p>
+											<p>
+												<span class="bold">The stakeholders were pleased with Metrics; and so were its users.</span> I was pleased that I'd been able to contribute to such an important organization.
+											</p>
+											<img src="img/portfolio/FVC_ForceInBalance-01.png" class="s-img" alt="A cartoon that I made suggesting that Metrics' brought balance to the Force.">
+											<h3>8.0: What I Learned</h3>
+											<p>
+												That UX Design is more “negative space” than “positive space”. In art, negative space is the space where the art isn’t. When UX Design is done right, it can be next-to-invisible; because when UX Design is done right, the user can experience the product without constraint, and absent the distractions that can confound tasks, or use. Your goal is to go almost unnoticed; <span class="bold">to facilitate your users’ interactions with your product to accomplish <span class=”italic”>their</span> own goals</span>, and not to see your brush strokes in the experience.
+											</p>
+											<p>
+												Oh: and I learned that I hate Visual Basic.
+											</p>
+											<p>
+												I’m serious: I hate you, Visual Basic.
+											</p>
+											<h3 class="internal-page-links">Next up: <a href="ccrc.html">CCRC ></a></h3>
+											<h3 class="internal-page-links">... or perhaps you've already decided to send me an<a href="mailto:mjs@mjs.design">email</a>?</h3>
+		</div>
+		<footer class="grid__col--9 panel--centered" role="contentinfo">
+			<div id="social-media">
+				<p>Follow me everywhere:</p>
+				<ul>
+					<li>
+						<a href="https://github.com/polymatt">
+							<p>GitHub</p>
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/polymatt">
+							<p>Twitter</p>
+						</a>
+					</li>
+					<li>
+						<a href="https://ca.linkedin.com/in/matthew-smith-833115b6">
+							<p>LinkedIn</p>
+						</a>
+					</li>
+					<li>
+						<a href="https://dribbble.com/polymatt">
+							<p>Dribbble</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<p>Design and Development by Matthew J. Smith &copy; 2016</p>
+			<p>Written in <span class="italic">Vim</span> and <span class="italic">Brackets</span></p>
+	</div>
+	</footer>
+	</div>
+	<script src="http://localhost:35729/livereload.js"></script>
+	<script src="_/js/script.js"></script>
+</body>
+
+</html>

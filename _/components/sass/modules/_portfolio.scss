@@ -1,0 +1,99 @@
+//
+// Portfolio 
+// needs refactors
+
+#portfolio {
+	.portfolio-piece {
+		@extend %clearfix;
+		@extend %drawn-rectangle;
+		margin-top: em(22px);
+		margin-bottom: em(10px);
+		padding: em(18px);
+		.portfolio-txt {
+			@include mq(large) {
+				margin-top: em(34px);
+				text-align: left;
+				float: right;
+				margin-right: em(6px);
+			}
+		}
+		a.find-out-more {
+			box-sizing: border-box;
+            width: em(152.5px);
+            padding: em(8px) em(8px) em(8px) 0;
+            color: $colour-primary; 
+			display: block;
+    		font-size: em(15px);
+    		font-weight: $font-weight--bold;
+    		font-family: $font-family--secondary;
+			border: em(0.01px) solid transparent;
+			margin: 0 auto;
+			&:hover {
+				@extend %nav-item-on;
+			}
+			@include mq(medium) {
+				width: em(180px);
+			    font-size: em(19.5px);
+			}
+			@include mq(large) {
+				margin: 0 0 0 -40px;
+				padding-left: em(24px);
+				text-align: left;
+			}
+		}
+	}
+	@include mq(large) {
+		margin-left: em(220px);	
+	}
+
+}
+
+#portfolio-expanded {
+	@extend %clearfix;
+	margin-top: em(18px);
+	margin-bottom: em(12px);
+	padding: em(20px);
+	text-align: left;
+
+	h3 {
+		font-size: em(26px);
+		padding-top: em(12px);
+		padding-bottom: em(10px);
+		@include mq(medium) {
+			font-size: em(28px);	
+		}
+	}
+	h4 {
+		font-size: em(22px);
+		padding-top: em(10px);
+		padding-bottom: em(8px);	
+	}
+	ul {
+		li {
+			&:before {
+				font-family: $font-family--secondary;
+				font-weight: $font-weight--bold;
+				content: "- ";
+			}
+		}
+	}
+
+	.internal-page-links {
+		box-sizing: border-box;
+		font-size: em(20px);
+		@include mq(medium) {
+			font-size: em(28px);	
+		}
+		a {
+			border: 0.01px solid transparent;
+			padding: em(7px);
+			box-sizing: border-box;
+			&:hover {
+				@extend %nav-item-on;
+			}
+		}
+	}
+
+
+
+}

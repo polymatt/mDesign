@@ -1,0 +1,31 @@
+//
+// Form
+//
+
+.form {
+	@include e(label) {
+		@include m(hidden) {
+			@extend .srt;	
+		}
+		display: block;
+		margin-bottom: em(10px);
+	}
+    
+	@include e(input) {
+		width: 100%;
+		font-size: em(19px);
+		font-family: $font-family--primary;
+		padding: em(15px, 18px);
+		margin-bottom: em(20px);
+		border-bottom: em(3px) solid palette(grey, xlight);
+		border-style: outset;
+		background: lighten(#FFFFA5, 35%);
+		color: palette(black, dark);
+		font-weight: $font-weight--light;
+		
+		&:focus {
+			border-color: $colour-primary;	
+		}
+	}
+
+}
