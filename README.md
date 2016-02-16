@@ -2,6 +2,7 @@
 a UX portfolio
 
 
+
 TO FIX
 
 Confirm accessible (screen readers, etc.)
@@ -9,6 +10,7 @@ Confirm accessible (screen readers, etc.)
 Retest PHP
 
 Refactor * 100
+
 
 
 CHANGELOG
