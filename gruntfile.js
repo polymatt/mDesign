@@ -13,6 +13,15 @@ module.exports = function(grunt) {
                 } //    files
            } //     my_target
         }, //    uglify
+		uncss: {
+  			dist: {
+    			src: ['about.html', 'contact.html', 'thanksalot.html', 'index.html', 'fvc.html', 'ccrc.html', 'mjs.html', 'visocast.html', 'other_projects.html'],
+    			dest: '_/css/tidy.css',
+    			options: {
+      				report: 'min' // report space savings
+    			}
+  			}
+		}, //	uncss
         compass: {
             dev: {
                 options: {
@@ -28,21 +37,12 @@ module.exports = function(grunt) {
             }, //    scripts
             sass: {
                 files: ["_/components/sass/*.scss", "_/components/sass/**/*.scss"],
-                tasks: ["compass:dev"]
+                tasks: ["compass:dev", "uncss"]
             },
             html: {
                  files: ["*.html"]
             }
         }, //    watch
-		uncss: {
-  			dist: {
-    			src: ['about.html', 'contact.html', 'thanksalot.html', 'index.html', 'fvc.html', 'ccrc.html', 'mjs.html', 'visocast.html', 'other_projects.html'],
-    			dest: 'dist/css/tidy.css',
-    			options: {
-      				report: 'min' // optional: include to report savings
-    			}
-  			}
-		} //	uncss
     }) //   .initConfig
     grunt.registerTask("default", "watch");
 } //    .exports

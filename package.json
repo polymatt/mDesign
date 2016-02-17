@@ -1,6 +1,6 @@
 {
-  "name": "mDesign",
-  "description": "ePortfolio",
+  "name": "mjs.design",
+  "description": "UX Portfolio",
   "version": "0.0.1",
   "dependencies": {
     "grunt": "~0.4.5",
