@@ -17,7 +17,7 @@ body {
     line-height: $base__line/$base__font-size;
     font-family: $font-family--primary;
 	
-	// overflow-x to keep the absolute "scribble" imgs from forcing a horizontal scroll bar as the site view narrows between large and 		   medium mqs
+	// overflow-x to keep the absolute "scribble" imgs from forcing a horizontal scroll bar as the site view narrows between large and 		        medium mqs
 	
     overflow-x: hidden;
 	background: #f9f9f9;
@@ -75,6 +75,7 @@ ol {
 		list-style: decimal;	
 }
 
+// styles for HTML audio player
 
 audio {
 	width: 80%;

@@ -77,7 +77,6 @@
 			}
 		}
 	}
-
 	.internal-page-links {
 		box-sizing: border-box;
 		font-size: em(20px);
@@ -85,15 +84,17 @@
 			font-size: em(28px);	
 		}
 		a {
+			colour: $colour_primary;
 			border: 0.01px solid transparent;
 			padding: em(7px);
 			box-sizing: border-box;
 			&:hover {
 				@extend %nav-item-on;
 			}
+
 		}
+		
 	}
 
-
-
 }
+

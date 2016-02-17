@@ -40,6 +40,9 @@
 	}
 }
 
+// links' circle border
+// $MarkerCircle located in _config
+
 %nav-item-on {
     border: em(0.01px) black;
     box-sizing: border-box;
@@ -50,8 +53,8 @@
     -webkit-border-image: $MarkerCircle 1 fill;
 }
 
-// Portfolio Items' Border
-// $Marker Rectangle in _config
+// portfolio items' border
+// $MarkerRectangle located in _config
 
 %drawn-rectangle {
 	border: em(10px) black;
@@ -64,7 +67,7 @@
 	box-sizing: border-box;
 }
 
-// Headlines 
+// headlines 
 
 %headline-prim {
     font-size: em(28px);

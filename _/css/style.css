@@ -91,7 +91,7 @@ body {
 /* line 43, ../components/sass/base/_base.scss */
 a {
   text-decoration: none;
-  color: #2e3e9a; }
+  color: rgba(36, 48, 120, 0.9); }
 
 /* line 48, ../components/sass/base/_base.scss */
 p {
@@ -125,7 +125,7 @@ ul li, ol li {
 ol {
   list-style: decimal; }
 
-/* line 79, ../components/sass/base/_base.scss */
+/* line 80, ../components/sass/base/_base.scss */
 audio {
   width: 80%;
   display: block;
@@ -180,25 +180,11 @@ img {
 
 /* line 52, ../components/sass/base/_idsclasses.scss */
 .blue {
-  color: #2e3e9a; }
+  color: rgba(36, 48, 120, 0.9); }
 
 /* line 56, ../components/sass/base/_idsclasses.scss */
 .red {
-  color: #fd7178; }
-
-/* line 61, ../components/sass/base/_idsclasses.scss */
-.internal-page-links {
-  box-sizing: border-box;
-  font-size: 1.25em; }
-@media (min-width: 769px) {
-  /* line 61, ../components/sass/base/_idsclasses.scss */
-  .internal-page-links {
-    font-size: 1.75em; } }
-/* line 67, ../components/sass/base/_idsclasses.scss */
-.internal-page-links a {
-  border: 0.01px solid transparent;
-  padding: 0.4375em;
-  box-sizing: border-box; }
+  color: rgba(253, 95, 103, 0.85); }
 
 /* line 8, ../components/sass/layout/_extends.scss */
 .panel, .panel--centered {
@@ -217,11 +203,21 @@ img {
     padding-top: 4.0625em;
     padding-bottom: 2.125em; } }
 
-/* line 6, ../components/sass/layout/_footer.scss */
+/* line 6, ../components/sass/layout/_footer (Mattbot-X's conflicted copy 2016-02-15).scss */
 #social-media ul li {
   display: inline-block; }
 @media (min-width: 1px) and (max-width: 768px) {
-  /* line 6, ../components/sass/layout/_footer.scss */
+  /* line 6, ../components/sass/layout/_footer (Mattbot-X's conflicted copy 2016-02-15).scss */
+  #social-media ul li {
+    display: block;
+    width: 8.125em;
+    margin: 0 auto; } }
+
+/* line 2, ../components/sass/layout/_footer.scss */
+#social-media ul li {
+  display: inline-block; }
+@media (min-width: 1px) and (max-width: 768px) {
+  /* line 2, ../components/sass/layout/_footer.scss */
   #social-media ul li {
     display: block;
     width: 8.125em;
@@ -324,7 +320,7 @@ img {
 /* line 19, ../components/sass/modules/_extends.scss */
 .nav__item a, .nav__item--current a {
   border: 0.00063em solid transparent;
-  color: #2e3e9a;
+  color: rgba(36, 48, 120, 0.9);
   font-size: 1.0625em;
   font-weight: 700;
   font-family: "Permanent Marker", cursive;
@@ -348,8 +344,8 @@ img {
   .nav__item a, .nav__item--current a {
     padding: 0.75em; } }
 
-/* line 43, ../components/sass/modules/_extends.scss */
-.internal-page-links a:hover, footer #social-media ul li:hover, .nav__item a:hover, .nav__item--current a, .nav .nav__item--current a, #portfolio .portfolio-piece a.find-out-more:hover, #portfolio-expanded .internal-page-links a:hover {
+/* line 46, ../components/sass/modules/_extends.scss */
+footer #social-media ul li:hover, .nav__item a:hover, .nav__item--current a, .nav .nav__item--current a, #portfolio .portfolio-piece a.find-out-more:hover, #portfolio-expanded .internal-page-links a:hover {
   border: 0.00063em black;
   box-sizing: border-box;
   border-image: url(../../img/misc/MISC_MarkerCircle.png) 1 fill;
@@ -358,7 +354,7 @@ img {
   -moz-border-image: url(../../img/misc/MISC_MarkerCircle.png) 1 fill;
   -webkit-border-image: url(../../img/misc/MISC_MarkerCircle.png) 1 fill; }
 
-/* line 56, ../components/sass/modules/_extends.scss */
+/* line 59, ../components/sass/modules/_extends.scss */
 #portfolio .portfolio-piece {
   border: 0.625em black;
   border-style: inset;
@@ -369,43 +365,43 @@ img {
   -moz-border-image: url(../../img/misc/MISC_MarkerRectangle.svg) 20 repeat;
   box-sizing: border-box; }
 
-/* line 69, ../components/sass/modules/_extends.scss */
+/* line 72, ../components/sass/modules/_extends.scss */
 h1, .headline-primary--grouped, .headline-primary {
   font-size: 1.75em;
   line-height: 0.87273;
   margin-bottom: 0.63158em;
   margin-top: 0.4em; }
 @media (min-width: 769px) {
-  /* line 69, ../components/sass/modules/_extends.scss */
+  /* line 72, ../components/sass/modules/_extends.scss */
   h1, .headline-primary--grouped, .headline-primary {
     margin-top: 0.96875em;
     font-size: 2.75em;
     line-height: 0.8; } }
 @media (min-width: 1136px) {
-  /* line 69, ../components/sass/modules/_extends.scss */
+  /* line 72, ../components/sass/modules/_extends.scss */
   h1, .headline-primary--grouped, .headline-primary {
     margin-top: 0.4em;
     line-height: 0.90441; } }
 
-/* line 85, ../components/sass/modules/_extends.scss */
+/* line 88, ../components/sass/modules/_extends.scss */
 h2, .headline-secondary--grouped, .headline-secondary {
   font-size: 1.625em; }
 @media (min-width: 769px) {
-  /* line 85, ../components/sass/modules/_extends.scss */
+  /* line 88, ../components/sass/modules/_extends.scss */
   h2, .headline-secondary--grouped, .headline-secondary {
     margin-top: 0.25em;
     font-size: 2.625em;
     line-height: 0.8; } }
 
-/* line 94, ../components/sass/modules/_extends.scss */
+/* line 97, ../components/sass/modules/_extends.scss */
 h3, .headline-tertiary--grouped, .headline-tertiary, .headline-quaternary--grouped, .headline-quaternary {
   font-size: 1.375em; }
 
-/* line 98, ../components/sass/modules/_extends.scss */
+/* line 101, ../components/sass/modules/_extends.scss */
 h4 {
   font-size: 1.375em; }
 
-/* line 105, ../components/sass/modules/_extends.scss */
+/* line 108, ../components/sass/modules/_extends.scss */
 .form__button {
   padding: 2px 30px;
   border: 0;
@@ -417,14 +413,14 @@ h4 {
   font-size: 1.625em;
   font-weight: 700;
   display: block; }
-/* line 116, ../components/sass/modules/_extends.scss */
+/* line 119, ../components/sass/modules/_extends.scss */
 .form__button:hover {
   opacity: .75;
   color: #010101; }
-/* line 120, ../components/sass/modules/_extends.scss */
+/* line 123, ../components/sass/modules/_extends.scss */
 .form__button:active {
   opacity: initial; }
-/* line 123, ../components/sass/modules/_extends.scss */
+/* line 126, ../components/sass/modules/_extends.scss */
 .form__button + .form__button {
   margin-top: 1.5625em; }
 
@@ -441,7 +437,7 @@ footer #social-media ul li {
 footer #social-media ul li a p {
   padding: 0.625em;
   font-size: 0.875em;
-  color: #2e3e9a; }
+  color: rgba(36, 48, 120, 0.9); }
 @media (min-width: 769px) {
   /* line 11, ../components/sass/modules/_footer.scss */
   footer #social-media ul li a p {
@@ -465,7 +461,7 @@ footer #social-media ul li a p {
   font-weight: 300; }
 /* line 26, ../components/sass/modules/_forms.scss */
 .form__input:focus {
-  border-color: #2e3e9a; }
+  border-color: rgba(36, 48, 120, 0.9); }
 
 @media (min-width: 1136px) {
   /* line 5, ../components/sass/modules/_header.scss */
@@ -474,7 +470,7 @@ footer #social-media ul li a p {
     width: 18.125em;
     top: 0.3125em; } }
 
-/* line 13, ../components/sass/modules/_header.scss */
+/* line 15, ../components/sass/modules/_header.scss */
 .fake-draft-text {
   position: absolute;
   font-family: "Permanent Marker", cursive;
@@ -483,11 +479,11 @@ footer #social-media ul li a p {
   top: 0;
   right: 1.71875em; }
 @media (min-width: 769px) {
-  /* line 13, ../components/sass/modules/_header.scss */
+  /* line 15, ../components/sass/modules/_header.scss */
   .fake-draft-text {
     font-size: 1.125em; } }
 @media (min-width: 1136px) {
-  /* line 13, ../components/sass/modules/_header.scss */
+  /* line 15, ../components/sass/modules/_header.scss */
   .fake-draft-text {
     font-size: 1.28125em; } }
 
@@ -628,7 +624,7 @@ img {
   box-sizing: border-box;
   width: 9.53125em;
   padding: 0.5em 0.5em 0.5em 0;
-  color: #2e3e9a;
+  color: rgba(36, 48, 120, 0.9);
   display: block;
   font-size: 0.9375em;
   font-weight: 700;
@@ -676,16 +672,17 @@ img {
   font-family: "Permanent Marker", cursive;
   font-weight: 700;
   content: "- "; }
-/* line 81, ../components/sass/modules/_portfolio.scss */
+/* line 80, ../components/sass/modules/_portfolio.scss */
 #portfolio-expanded .internal-page-links {
   box-sizing: border-box;
   font-size: 1.25em; }
 @media (min-width: 769px) {
-  /* line 81, ../components/sass/modules/_portfolio.scss */
+  /* line 80, ../components/sass/modules/_portfolio.scss */
   #portfolio-expanded .internal-page-links {
     font-size: 1.75em; } }
-/* line 87, ../components/sass/modules/_portfolio.scss */
+/* line 86, ../components/sass/modules/_portfolio.scss */
 #portfolio-expanded .internal-page-links a {
+  colour: rgba(36, 48, 120, 0.9);
   border: 0.01px solid transparent;
   padding: 0.4375em;
   box-sizing: border-box; }

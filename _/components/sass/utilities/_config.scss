@@ -3,7 +3,7 @@
 // variables, etc.
 
 
-// Fonts
+// fonts
 
 $font-url--google               : "https://fonts.googleapis.com/css?family=Permanent+Marker";
 
@@ -11,7 +11,7 @@ $font-family--primary           : "Georgia", sans-serif;
 $font-family--secondary         : "Permanent Marker", cursive;
 
 
-// Font Weights
+// font weights
 
 $font-weight--thin              : 100;
 $font-weight--light             : 300;
@@ -29,14 +29,14 @@ $grey                           : #797e83;
 
 // Marker Colours
 
-$mm-blue                        : lighten(#293789, 4.435%);
-$mm-red							: lighten(#fd6c73, 1%);
+$mm-blue                        : darken(#293789, 4.435%);
+$mm-red							: darken(#fd6c73, 2.5%);
 $mm-black						: #464646;
 
 // Colour Usage
 
-$colour-primary                  : $mm-blue;
-$colour-secondary                : $mm-red;
+$colour-primary                  : rgba($mm-blue, .9);
+$colour-secondary                : rgba($mm-red, .85);
 $colour-accent                   : $mm-black;
 $colour-shadow                   : rgba($black, .2);
 

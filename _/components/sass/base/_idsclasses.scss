@@ -57,19 +57,19 @@ img {
 	color: $colour-secondary;
 }
 
-
-.internal-page-links {
-    box-sizing: border-box;
-    font-size: em(20px);
-    @include mq(medium) {
-        font-size: em(28px);	
-    }
-    a {
-        border: 0.01px solid transparent;
-        padding: em(7px);
-        box-sizing: border-box;
-        &:hover {
-            @extend %nav-item-on;
-        }
-    }
-}
+//.internal-page-links {
+//    box-sizing: border-box;
+//    font-size: em(20px);
+//	color: $colour-primary;
+//    @include mq(medium) {
+//        font-size: em(28px);	
+//    }
+//    a {
+//        border: 0.01px solid transparent;
+//        padding: em(7px);
+//        box-sizing: border-box;
+//        &:hover {
+//            @extend %nav-item-on;
+//        }
+//    }
+//}
