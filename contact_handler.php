@@ -109,38 +109,38 @@ echo nl2br($error_holder);
                 </p>
                 <br />
         </div>
-        <footer class="grid__col--9 panel--centered" role="contentinfo">
-            <div id="social-media">
-                <p>Follow me everywhere:</p>
-                <ul>
-                    <li>
-                        <a href="https://github.com/polymatt">
-                            <p>GitHub</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/polymatt">
-                            <p>Twitter</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://ca.linkedin.com/in/matthew-smith-833115b6">
-                            <p>LinkedIn</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://dribbble.com/polymatt">
-                            <p>Dribbble</p>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <p>Design and Code by Matthew J. Smith &copy; 2016</p>
-            <p>Written in <span class="italic">Vim</span> and <span class="italic">Brackets</span></p>
-    </div>
-    </footer>
-    </div>
-    <script src="_/js/script.js"></script>
+		<footer class="grid__col--9 panel--centered" role="contentinfo">
+			<div id="social-media">
+				<p>Follow me everywhere:</p>
+				<ul>
+					<li>
+						<a href="https://github.com/polymatt">
+							<p>GitHub</p>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.behance.net/polymatt">
+							<p>Behance</p>
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/polymatt">
+							<p>Twitter</p>
+						</a>
+					</li>
+					<li>
+						<a href="https://ca.linkedin.com/in/matthew-smith-833115b6">
+							<p>LinkedIn</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<p>Designs and Code by Matthew J. Smith &copy; 2016</p>
+			<p>Written in <span class="italic">Vim</span> and <span class="italic">Brackets</span></p>
+	</div>
+	</footer>
+	</div>
+	<script src="_/js/script.js"></script>
 </body>
 
 </html>
