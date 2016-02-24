@@ -459,7 +459,7 @@ img {
 .nav__item--current a {
   border: 0.00063em solid transparent;
   color: rgba(36, 48, 120, 0.9);
-  font-size: 1.0625em;
+  font-size: 1em;
   font-weight: 700;
   font-family: "Permanent Marker", cursive;
   display: block;
