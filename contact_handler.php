@@ -1,8 +1,6 @@
-
-
 <?php
 
-// not a secure form, but because mjs.design is noindexed (I direct-submit to employers) I don't expect a lot of bad traffic, he said, on the    night before all the bad traffic arrived
+// not a secure form, but because mjs.design is noindexed (I direct-submit to employers) I don't expect a lot of bad traffic, he said, on the night before all the bad traffic arrived
 
 // $mjs_email holds the domain email, and $error_holder holds form errors
 
@@ -22,7 +20,7 @@ $from_message = $_POST["from_message"];
 // boolean checks for bad email format with regex; if bad, a descriptive error message is added to $error_holder
 
 if(!preg_match("/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i", $from_email)) {
-	$error_holder .= "\n ERROR: Your email address was invalid.";
+	$error_holder .= "\n ERROR: Your email address was invalid. Format should be 'yourname@youremail.com'.";
 }
 
 // boolean checks for no errors; if none, sends mail on to me
@@ -38,9 +36,7 @@ if(empty($error_holder)) {
 	
 	header("LOCATION: thanksalot.html");
 }
-
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -104,8 +100,10 @@ echo nl2br($error_holder);
                 <br />
                 <br />
                 <p>
-                    Please don't hesitate to <a href="contact.html">contact me again!</a>
-                    <br />Or: if you'd rather not retry the contact form, I can also be reached via email at <a href="mailto:mjs@mjs.design">mjs@mjs.design</a>.
+                    Please don't hesitate to <a href="contact.html">try again!</a> It'll work this time. Likely.
+				</p>
+                <p>
+                	Or: if you'd rather not retry the contact form, I can also be reached via email at <a href="mailto:mjs@mjs.design">mjs@mjs.design</a>.
                 </p>
                 <br />
         </div>
