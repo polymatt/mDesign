@@ -95,6 +95,112 @@
 		}
 		
 	}
+	
+	// styles for other_projects' interaction design example; prefixed with gif because of these elements' intended juxtaposition with an included .gif animation
+	
+	#gif-wrapper {
+		position: relative;
+		width: em(574px);
+		height: em(315px);
+		background-color: #03A9F4;
+		margin: 0 auto;
+		max-width: 100%;
+	}
 
+	#gif-circle {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
+		background-color: #f44e03;
+		border-radius: 100%;
+		width: em(87.404px);
+		height: em(87.404px);
+		cursor: pointer;
+	}
+
+	#gif-lineWrapper {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
+		width: em(50px);
+		height: em(63px);
+		transition: .21s ease-in-out;
+	}
+
+	#gif-lineWrapper div:nth-child(1) {
+		top: em(8px);
+		transform-origin: right center;
+		-webkit-transform-origin: right center;
+		-moz-transform-origin: right center;
+		-o-transform-origin: right center;
+	}
+
+	#gif-lineWrapper.clicked div:nth-child(1) {
+		top: em(-3px);
+		left: em(7px);
+		transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+		-moz-transform: rotate(-45deg);
+		-o-transform: rotate(-45deg);
+	}
+
+	#gif-lineWrapper div:nth-child(2) {
+		top: em(14px);
+		transform-origin: left center;
+		-webkit-transform-origin: left center;
+		-moz-transform-origin: left center;
+		-o-transform-origin: left center;
+	}
+
+	#gif-lineWrapper.clicked div:nth-child(2) {
+		opacity: 0;
+	}
+
+	#gif-lineWrapper div:nth-child(3) {
+		top: 21px;
+		transform-origin: right center;
+		-webkit-transform-origin: right center;
+		-moz-transform-origin: right center;
+		-o-transform-origin: right center;
+	}
+
+	#gif-lineWrapper.clicked div:nth-child(3) {
+		top: 39px;
+		left: 8px;
+		transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+	}
+
+	#gif-lineWrapper.clicked {
+		transform: translate(em(-7.2px), em(-1.3px));
+		-webkit-transform: translate(em(-7.2px), em(-1.3px));
+		-moz-transform: translate(em(-7.2px), em(-1.3px));
+		-o-transform: translate(em(-7.2px), em(-1.3px));
+	}	
+
+	.gif-line {
+		background-color: white;
+		width: em(50px);
+		height: em(6px);
+		margin-top: em(12px);
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transition: .21s ease-in-out;
+		-webkit-transition: .21s ease-in-out;
+		-moz-transition: .21s ease-in-out;
+		-o-transition: .21s ease-in-out;
+	}
 }
+
+
 

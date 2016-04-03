@@ -16,12 +16,24 @@ function date() {
     if(mm < 10){
         mm = '0' + mm;
     } 
-    // dash included in JavaScript to degrade more gracefully if mjs.design user has JavaScript disabled
+    // dash included in JavaScript (vs. element) to degrade more gracefully if mjs.design user has JavaScript disabled
     today = dd + '/' + mm + '/' + yyyy;
     document.getElementById("date").innerHTML = " - " + today;
 }
 
 date();
+
+
+// apply .clicked class to other_projects.html interaction design entry
+
+$(document).ready(function(){
+	$("#gif-circle").click(function() {
+		$(this).fadeTo(80, 0.52).fadeTo(80, 1.0);
+		setTimeout(function() {
+			$("#gif-lineWrapper").toggleClass("clicked");
+		}, 185);
+	});
+});
 
 
 // remove :hover effects on mobile
@@ -48,4 +60,6 @@ function hoverTouchUnstick() {
     }
   }
 }
+
+
 

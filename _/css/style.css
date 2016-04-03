@@ -686,6 +686,98 @@ img {
   border: 0.01px solid transparent;
   padding: 0.4375em;
   box-sizing: border-box; }
+/* line 101, ../components/sass/modules/_portfolio.scss */
+#portfolio-expanded #gif-wrapper {
+  position: relative;
+  width: 35.875em;
+  height: 19.6875em;
+  background-color: #03A9F4;
+  margin: 0 auto;
+  max-width: 100%; }
+/* line 110, ../components/sass/modules/_portfolio.scss */
+#portfolio-expanded #gif-circle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background-color: #f44e03;
+  border-radius: 100%;
+  width: 5.46275em;
+  height: 5.46275em;
+  cursor: pointer; }
+/* line 124, ../components/sass/modules/_portfolio.scss */
+#portfolio-expanded #gif-lineWrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 3.125em;
+  height: 3.9375em;
+  transition: .21s ease-in-out; }
+/* line 136, ../components/sass/modules/_portfolio.scss */
+#portfolio-expanded #gif-lineWrapper div:nth-child(1) {
+  top: 0.5em;
+  transform-origin: right center;
+  -webkit-transform-origin: right center;
+  -moz-transform-origin: right center;
+  -o-transform-origin: right center; }
+/* line 144, ../components/sass/modules/_portfolio.scss */
+#portfolio-expanded #gif-lineWrapper.clicked div:nth-child(1) {
+  top: -0.1875em;
+  left: 0.4375em;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg); }
+/* line 153, ../components/sass/modules/_portfolio.scss */
+#portfolio-expanded #gif-lineWrapper div:nth-child(2) {
+  top: 0.875em;
+  transform-origin: left center;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center; }
+/* line 161, ../components/sass/modules/_portfolio.scss */
+#portfolio-expanded #gif-lineWrapper.clicked div:nth-child(2) {
+  opacity: 0; }
+/* line 165, ../components/sass/modules/_portfolio.scss */
+#portfolio-expanded #gif-lineWrapper div:nth-child(3) {
+  top: 21px;
+  transform-origin: right center;
+  -webkit-transform-origin: right center;
+  -moz-transform-origin: right center;
+  -o-transform-origin: right center; }
+/* line 173, ../components/sass/modules/_portfolio.scss */
+#portfolio-expanded #gif-lineWrapper.clicked div:nth-child(3) {
+  top: 39px;
+  left: 8px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg); }
+/* line 182, ../components/sass/modules/_portfolio.scss */
+#portfolio-expanded #gif-lineWrapper.clicked {
+  transform: translate(-0.45em, -0.08125em);
+  -webkit-transform: translate(-0.45em, -0.08125em);
+  -moz-transform: translate(-0.45em, -0.08125em);
+  -o-transform: translate(-0.45em, -0.08125em); }
+/* line 189, ../components/sass/modules/_portfolio.scss */
+#portfolio-expanded .gif-line {
+  background-color: white;
+  width: 3.125em;
+  height: 0.375em;
+  margin-top: 0.75em;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transition: .21s ease-in-out;
+  -webkit-transition: .21s ease-in-out;
+  -moz-transition: .21s ease-in-out;
+  -o-transition: .21s ease-in-out; }
 
 @media (min-width: 1px) and (max-width: 768px) {
   /* line 5, ../components/sass/states/_collapsed.scss */

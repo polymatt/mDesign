@@ -127,7 +127,7 @@ echo nl2br($error_holder);
 						</a>
 					</li>
 					<li>
-						<a href="https://ca.linkedin.com/in/matthew-smith-833115b6">
+						<a href="https://ca.linkedin.com/in/matthew-j-smith-833115b6">
 							<p>LinkedIn</p>
 						</a>
 					</li>
